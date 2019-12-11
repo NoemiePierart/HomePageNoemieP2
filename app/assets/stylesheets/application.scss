@@ -1,3 +1,8 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
 @import "bootstrap/scss/bootstrap";
 @import "components/btn";
 @import "components/banner";
@@ -8,7 +13,6 @@
 @import "components/form";
 
 body{
- width: 95vw;
  margin: 0 auto 25px auto;
  font-family: 'Cormorant Garamond', serif;
 }
@@ -26,10 +30,9 @@ img{
   border-radius: 8px
 }
 
-
-// .block {
-//   margin: 10px;
-// }
+.block {
+  padding: 20px;
+}
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files

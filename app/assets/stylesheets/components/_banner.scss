@@ -29,13 +29,16 @@
 
 #contact-infos {
   position: absolute;
-  margin-top: 25px;
   left: 15%;
   right: 0;
-  background-color: gray;
+  background-color: $grischic;
   opacity: 0.9;
-  padding: 16px;
   width: 300px;
   font-weight: bold;
   border-radius: 8px;
+  padding: 0 15px;
+}
+
+#contact-infos p {
+  margin-bottom: 0px;
 }
