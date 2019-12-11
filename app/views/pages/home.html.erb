@@ -2,7 +2,7 @@
 
   <div class="main-container">
 
-      <div id="accueil" class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= image_path 'banner-wordpress.jpg'%>);">
+      <div id="accueil" class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(<%= image_path 'banner-wordpress.jpg'%>);">
         <div class="banner-container">
           <h1>Noémie Piérart</h1>
           <h2>Développement web</h2>
@@ -12,56 +12,90 @@
 
       <div id="parcours">
         <h2 >Parcours</h2>
-          <div class=d-flex>
+        <div class="card-category">
+          <div class="d-flex">
             <img src="/assets/studies_icon.png" class="icon">
-            <p>Après trois ans de classes préparatoires littéraires, je suis diplômée de <a href="https://www.escpeurope.eu/fr">l'ESCP Europe Business School</a> à Paris, avec un semestre d'études en Inde.</p>
+            <p class="pl-4">Après trois ans de classes préparatoires littéraires, je suis diplômée de <a href="https://www.escpeurope.eu/fr">l'ESCP Europe Business School</a> à Paris, avec un semestre d'études en Inde.</p>
           </div>
-          <div class=d-flex>
+          <br>
+          <div class="d-flex">
             <img src="/assets/experience_icon.png" class="icon" >
             <div>
-              <p>J'ai ensuite travaillé pendant 10 ans en gestion de projets, principalement dans le numérique : </p>
+              <p class="pl-4">J'ai ensuite travaillé pendant 10 ans en gestion de projets, principalement dans le numérique : </p>
               <ul>
                 <li><p>à l'<a href="https://www.oecd.org/fr/apropos/">OCDE</a> (Organisation de Coopération et de Développement Economiques) à Paris, dont 2 ans en mission de conseil sur le digital pour le gouvernement du Kazakhstan.</li></p>
                 <li><p>à <a href="https://www.bordeaux-metropole.fr/">Bordeaux Métropole</a> - 3 ans comme Directrice de projets sur la transformation numérique. </p></li>
               </ul>
             </div>
           </div>
-          <div class=d-flex>
+          <div class="d-flex">
             <img src="/assets/wagon_icon.png" class="icon">
-            <p>En 2019, j'ai appris à coder grâce au bootcamp fullstack du <a href="https://www.lewagon.com/fr">Wagon</a>. Cette formation intensive de 9 semaines m'a permis d'obtenir la <a href="https://www.lemondeinformatique.fr/actualites/lire-l-ecole-de-code-le-wagon-decroche-un-titre-rncp-de-niveau-2-74172.html">certification</a> au métier de "Concepteur et développeur d'applications web" (niveau Bac+3/4) délivrée par la Commission Nationale des Certifications Professionnelles. </p>
+            <p class="pl-4">En 2019, j'ai appris à coder grâce au bootcamp fullstack du <a href="https://www.lewagon.com/fr">Wagon</a> pour devenir développeur web. Cette formation intensive de 9 semaines m'a permis d'obtenir la certification au métier de "Concepteur et développeur d'applications web" (niveau Bac+3/4) délivrée par la Commission Nationale des Certifications Professionnelles (détails <a href="https://www.lemondeinformatique.fr/actualites/lire-l-ecole-de-code-le-wagon-decroche-un-titre-rncp-de-niveau-2-74172.html">ici</a>.)</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="services">
+        <h2 >Services</h2>
+        <div class="card-category">
+          <div class="d-flex align-items-center">
+            <img src="/assets/conception_icon.png" class="icon">
+            <p class="pl-4"><strong>Conception : </strong>Analyse des besoins et aide à la structuration du projet : authentification,  géolocalisation, moteur de recherche, mailings automatisés, paiement, etc.</p>
+          </div>
+          <br>
+          <div class="d-flex align-items-center">
+            <img src="/assets/design_icon.png" class="icon">
+            <p class="pl-4"><strong>Design : </strong>Production de maquettes, avec un design responsive qui s'adapte à tous les écrans (y compris mobiles).</p>
+          </div>
+          <br>
+          <div class="d-flex align-items-center">
+            <img src="/assets/development_icon.png" class="icon">
+            <p class="pl-4"><strong>Développement : </strong>Réalisation du site de A à Z, jusqu'à sa mise en ligne.</p>
           </div>
         </div>
       </div>
 
       <div id="technologies">
         <h2>Technologies</h2>
-        <div class="block d-flex justify-content-between row">
-          <div class="bg-yellow col-12 col-md-6">
-            <h3>Front-end</h3>
-            <div class="cards">
-              <div class="card-techno">
-                <img src="/assets/HTML.png" alt="HTML logo" class="techno-logos">
-                <div class="techno-names">HTML</div>
-              </div>
-
-              <div class="card-techno">
-                <img src="/assets/CSS.png" alt="CSS logo" class="techno-logos">
-                <div class="techno-names">CSS</div>
-              </div>
-
-              <div class="card-techno">
-                <img src="/assets/javascript.png" alt="JS logo" class="techno-logos">
-                <div class="techno-names">Javascript</div>
-              </div>
-
-              <div class="card-techno">
-                <img src="/assets/responsive.png" alt="Responsive logo" class="techno-logos">
-                <div class="techno-names">Responsive</div>
-              </div>
+        <div class="cards">
+        <div class="card-category bg-yellow">
+          <strong><p>Front-end</strong></p>
+          <div class="end-cards">
+            <div class="card-techno">
+              <img src="/assets/HTML.png" alt="HTML logo" class="techno-logos">
+              <div class="techno-names">HTML</div>
             </div>
 
-            <h3>Back-end</h3>
-            <div class="cards">
+            <div class="card-techno">
+              <img src="/assets/CSS.png" alt="CSS logo" class="techno-logos">
+              <div class="techno-names">CSS</div>
+            </div>
+
+            <div class="card-techno">
+              <img src="/assets/javascript.png" alt="JS logo" class="techno-logos">
+              <div class="techno-names">Javascript</div>
+            </div>
+
+            <div class="card-techno">
+              <img src="/assets/responsive.png" alt="Responsive logo" class="techno-logos">
+              <div class="techno-names">Responsive</div>
+            </div>
+
+            <div class="card-techno">
+              <img src="/assets/bootstrap.png" alt="Responsive logo" class="techno-logos">
+              <div class="techno-names">Bootstrap</div>
+            </div>
+
+            <div class="card-techno">
+              <img src="/assets/figma.jpg" alt="Responsive logo" class="techno-logos">
+              <div class="techno-names">Figma</div>
+            </div>
+
+          </div>
+
+          <strong><p>Back-end</strong></p>
+          <div class="end-cards">
+            <div class="card-category">
               <div class="card-techno">
                 <img src="/assets/ruby.png" alt="ruby logo" class="techno-logos">
                 <div class="techno-names">Ruby</div>
@@ -105,33 +139,31 @@
               </div>
             </div>
           </div>
-          <img src="/assets/technos-wordpress.jpg" alt="Technologies" class="col-12 col-md-6"/>
+        </div>
+        <img src="/assets/technos-wordpress.jpg" alt="Technologies" class="card-category img-big"/>
         </div>
       </div>
 
       <div id="portfolio">
         <h2>Portfolio</h2>
-          <div class="block d-flex justify-content-between">
-            <img src="/assets/portfolio.jpg" alt="Portfolio" class="col-sm-6"/>
-            <p class="col-sm-6">Deux projets récents</p>
+          <div class="cards">
+            <img src="/assets/portfolio.jpg" alt="Portfolio" class="card-category img-big"/>
+            <p class="card-category ">Deux projets récents</p>
         </div>
       </div>
-
-
-
 
       <div id="contact">
         <h2>Contact</h2>
 
-          <div class="row">
-            <div id="contact-container" class="block col-12 col-sm-6" style="background-image: url(<%= image_path 'photo_contact_2.jpg' %>);">
+          <div class="cards">
+            <div id="contact-container" class="card-category" style="background-image: url(<%= image_path 'photo_contact_2.jpg' %>);">
               <div id="contact-infos">
                 <p><i class="far fa-envelope"></i> contact@noemie-pierart.com</p>
                 <p><i class="fas fa-phone"></i> 06.13.85.76.07</p>
                 <p><i class="fas fa-map-marker-alt"></i>8 place Saint-Projet, 33 000 Bordeaux</p>
               </div>
             </div>
-            <div class="block form col-12 col-sm-6">
+            <div class="card-category form">
               <form action="https://formspree.io/mledvdrk" method="POST">
                 <input class="form-element" type="text" name="_nom" placeholder="Nom" required>
                 <input class="form-element" type="text" name="_replyto" placeholder="Email" required>

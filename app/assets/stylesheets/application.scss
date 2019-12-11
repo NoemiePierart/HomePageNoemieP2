@@ -13,9 +13,10 @@
 @import "components/form";
 
 body{
- margin: 0 auto 25px auto;
+ margin: 0 8px 25px 8px;
  font-family: 'Cormorant Garamond', serif;
  color: $bleugris;
+ background-color: #F8F8F8;
 }
 
 .main-container{
@@ -27,20 +28,14 @@ body{
   border-radius: 8px;
 }
 
-img{
-  border-radius: 8px
-}
-
-.block {
-  position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+.img-big{
+  border-radius: 8px;
+  width: 100%
 }
 
 p{
   font-size: 18px;
-  font-height: 0.8rem;
+  font-height: 0.6rem;
   margin-bottom: 0;
   padding-bottom: 0;
 }

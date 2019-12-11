@@ -1,27 +1,13 @@
-.btn {
-  background-color: #FFF9B1;
-  color: #4A4A4A;
-  border: 1px solid #4A4A4A;
-  padding: 8px 24px;
-  font-weight: lighter;
+.btn-message {
+  background-color: $bleugris;
+  color: white;
+  margin-top: 8px;
+  margin-left: 40%;
   opacity: 0.8;
   transition: opacity 0.3s ease;
 }
 
-.btn:hover {
+.btn-message:hover {
   opacity: 1;
 }
 
-.btn-contact {
-  border-radius: 50px;
-  text-align: center;
-  margin: 0 auto;
-  display: block;
-  width: 100px
-}
-
-.btn-message {
-  background-color: $bleugris;
-  color: white;
-  margin: 0 auto;
-}
