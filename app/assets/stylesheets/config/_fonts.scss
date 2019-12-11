@@ -5,6 +5,13 @@
 $body-font: "Open Sans", "Helvetica", "sans-serif";
 $headers-font: "Cormorant Garamond", "Helvetica", "sans-serif";
 
+p{
+  font-size: 14px;
+  font-height: 0.8rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 // To use a font file (.woff) uncomment following lines
 // @font-face {
 //   font-family: "Font Name";
