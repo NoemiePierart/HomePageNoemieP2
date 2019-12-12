@@ -69,13 +69,12 @@
         </div>
       </div>
 
-      <div id="technologies">
-        <div class="container">
+      <div id="technologies" class="container">
         <h2>Technologies</h2>
         <div class="row">
-          <div class="col-12 col-sm-9" id="bg-yellow">
+          <div class="col-12 col-md-9" id="bg-yellow">
 
-            <strong><p class="text-center">Front-end (web design)</strong></p>
+            <strong><p class="text-center front-back">Front-end (web design)</strong></p>
             <div class="row">
 
               <div class="card-techno col-4">
@@ -108,9 +107,8 @@
                 <div class="techno-names">Figma</div>
               </div>
             </div>
-            <br>
             <hr>
-            <strong><p class="text-center">Back-end (programmation)</strong></p>
+            <strong><p class="text-center front-back">Back-end (programmation)</strong></p>
             <div class="row">
 
                 <div class="card-techno col-4">
@@ -158,50 +156,44 @@
                   <div class="techno-names">MVC pattern</div>
                 </div>
             </div>
-
           </div>
 
-          <div class="col-12 col-sm-3">
+          <div class="col-12 col-md-3">
             <img src="/assets/technos-wordpress.jpg" alt="Technologies" class="card-category img-big"/>
           </div>
         </div>
       </div>
-
-      <div id="portfolio">
-        
-        <div class="container">
-          <h2>Portfolio</h2>
-          <p class="text-center"><strong>FlashWine</strong> - une appli web pour apprendre le vin : <br>gestion d'une cave virtuelle, cours et quiz sur le vin, partage avec une communauté d'amis.</p>
-          <div class="row">
-            <img src="/assets/FlashWine1.png" class="col-3 screenshot">
-            <img src="/assets/FlashWine2.png" class="col-3 screenshot">
-            <img src="/assets/FlashWine3.png" class="col-3 screenshot">
-            <img src="/assets/FlashWine4.png" class="col-3 screenshot">
-          </div>
+      
+      <div id="portfolio" class="container">
+        <h2>Portfolio</h2>
+        <p class="text-center"><strong>FlashWine</strong> - une appli web pour apprendre le vin : <br>gestion d'une cave virtuelle, cours et quiz sur le vin, partage avec une communauté d'amis.</p>
+        <div class="row">
+          <img src="/assets/FlashWine1.png" class="col-3">
+          <img src="/assets/FlashWine2.png" class="col-3">
+          <img src="/assets/FlashWine3.png" class="col-3">
+          <img src="/assets/FlashWine4.png" class="col-3">
         </div>
       </div>
 
-      <div id="contact">
-        <div class="container">
+      <div id="contact" class="container">
         <h2>Contact</h2>
-          <div class="row">
-            <div id="contact-container" class="col-12 col-sm-6" style="background-image: url(<%= image_path 'photo_contact_2.jpg' %>);">
-              <div id="contact-infos">
-                <p><i class="far fa-envelope"></i><a class="ml-3" href="mailto:contact@noemie-pierart.com"> contact@noemie-pierart.com</a></p>
-                <p><i class="fas fa-phone"></i> 06.13.85.76.07</p>
-                <p><i class="fas fa-map-marker-alt"></i>8 place Saint-Projet, 33 000 Bordeaux</p>
-              </div>
+        <div class="row">
+          <div id="contact-container" class="col-12 col-sm-6" style="background-image: url(<%= image_path 'photo_contact_2.jpg' %>);">
+            <div id="contact-infos">
+              <p><i class="far fa-envelope"></i><a class="ml-1" href="mailto:contact@noemie-pierart.com"> contact@noemie-pierart.com</a></p>
+              <p><i class="fas fa-phone"></i> 06.13.85.76.07</p>
+              <p><i class="fas fa-map-marker-alt mr-1"></i>8 place Saint-Projet, 33 000 Bordeaux</p>
             </div>
-            <div class="col-12 col-sm-6 form">
-              <form action="https://formspree.io/mledvdrk" method="POST">
-                <input class="form-element" type="text" name="_nom" placeholder="Nom" required>
-                <input class="form-element" type="text" name="_replyto" placeholder="Email" required>
-                <input type="hidden" name="_language" value="fr" />
-                <input type="hidden" name="_subject" value="New email from my website!" />
-                <textarea class="form-element-message" name="message" placeholder="Message" required></textarea>
-                <button class="btn btn-message" type="submit">Envoyer</button>
-              </form>
-            </div>
+          </div>
+          <div class="col-12 col-sm-6 form">
+            <form action="https://formspree.io/mledvdrk" method="POST">
+              <input class="form-element" type="text" name="_nom" placeholder="Nom" required>
+              <input class="form-element" type="text" name="_replyto" placeholder="Email" required>
+              <input type="hidden" name="_language" value="fr" />
+              <input type="hidden" name="_subject" value="New email from my website!" />
+              <textarea class="form-element-message" name="message" placeholder="Message" required></textarea>
+              <button class="btn btn-message" type="submit">Envoyer</button>
+            </form>
           </div>
         </div>
       </div>
