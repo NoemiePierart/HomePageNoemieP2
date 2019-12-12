@@ -5,7 +5,6 @@
   background-color: $grischic;
   height: 310px;
   line-height: 0.1rem;
-  margin-top: 6px;
 }
 
 .form-element {
@@ -30,4 +29,27 @@
   padding: 8px 16px
 }
 
+#contact-container {
+  height: 310px;
+}
 
+#contact-container {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 310px;
+}
+
+#contact-infos {
+  position: absolute;
+  right: 0;
+  background-color: $grischic;
+  width: 100%;
+  font-weight: bold;
+  padding: 0 15px;
+}
+
+#contact-infos p {
+  padding: 9px;
+  text-align: center
+}

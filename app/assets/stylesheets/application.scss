@@ -10,22 +10,34 @@
 @import "components/avatar";
 @import "components/logos";
 @import "components/navbar";
-@import "components/form";
+@import "components/contact";
 
 body{
- margin: 0 8px 25px 8px;
+ margin: 0 8px 25px 6px;
  font-family: 'Cormorant Garamond', serif;
  color: $bleugris;
  background-color: white;
 }
 
-.main-container{
-  padding-top: 60px;
+// .main-container{
+//   margin-top: 60px;
+// }
+
+.container {
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  padding: 6px;
+  margin-top: 16px;
 }
 
-.bg-yellow {
+#bg-yellow {
   background-color: #FFF9B1;
   border-radius: 8px;
+  margin: 0 8px 0 8px
+}
+
+h2 {
+	text-align: center
 }
 
 p{
