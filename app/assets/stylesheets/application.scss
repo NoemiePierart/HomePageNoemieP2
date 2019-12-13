@@ -37,16 +37,21 @@ body{
 }
 
 h2 {
-	text-align: center
+	text-align: center;
 }
 
 p{
-  font-size: 18px;
+  font-size: 20px;
   font-height: 0.6rem;
   margin-bottom: 0;
   padding-bottom: 0;
+  margin-left: 0;
+  margin-right: 0
 }
 
+#contact-infos p {
+  padding: 0
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
