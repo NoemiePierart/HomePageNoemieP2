@@ -13,22 +13,28 @@
 @import "components/contact";
 
 body{
- margin: 0 8px 25px 6px;
+ margin: 0 8px 25px 8px;
  font-family: 'Cormorant Garamond', serif;
  color: $bleugris;
  background-color: white;
 }
 
-// .main-container{
-//   margin-top: 60px;
-// }
+.main-container{
+  z-index: 501;
+}
 
 .container {
-  background-color: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  padding: 6px;
-  margin-top: 16px;
+  margin-top: 45px;
+  padding-bottom: 16px;
 }
+
+.container h2 {
+  margin-top:-50px;
+  padding-top: 35px;
+  margin-bottom: 16px
+}
+
 
 #bg-yellow {
   background-color: #FFF9B1;
