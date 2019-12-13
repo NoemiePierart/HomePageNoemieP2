@@ -13,14 +13,12 @@
 @import "components/contact";
 
 body{
- margin: 0 8px 25px 8px;
- font-family: 'Cormorant Garamond', serif;
- color: $bleugris;
- background-color: white;
-}
+  width: 95vw;
+  margin: 0 auto 25px auto;
+  font-family: 'Cormorant Garamond', serif;
+  color: $bleugris;
+  background-color: white;
 
-.main-container{
-  z-index: 501;
 }
 
 .container {
