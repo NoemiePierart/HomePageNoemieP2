@@ -40,14 +40,16 @@
   </div>
 
   <div>
-    <a href="pages/fr">
-      <img src="/assets/flag_fr.jpg" class="flag", alt="fr"%>
-    </a>
-    <a href="/eng">
-      <img src="/assets/flag_eng.png" class="flag", alt="eng"%>
-    </a>
-  </div>
 
+    <%= link_to fr_path do%>
+      <%=image_tag "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/langfr-450px-Flag_of_France.svg.png", class:"flag"%>
+      <% end %>
+
+    <%= link_to eng_path do%>
+      <%=image_tag "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/langfr-450px-Flag_of_the_United_Kingdom.svg.png", class:"flag"%>
+      <% end %>
+
+  </div>
 
 </div>
 
@@ -203,7 +205,7 @@
          <div class="col-2 text-center ">
             <img src="/assets/wagon_icon.png" class="icon-logo" >
           </div>
-          <div class="col-10"><p><strong>Bootcamp fullstack du <a href="https://www.lewagon.com/fr">Wagon</strong></a> <em>(2019 - batch 325)</em></p>
+          <div class="col-10"><a href="https://www.lewagon.com/fr"><p><strong>Bootcamp fullstack du Wagon</strong></a> <em>(2019 - batch 325)</em></p>
           <p> Formation intensive de 9 semaines pour apprendre à coder .</p> 
           <p>Obtention de la certification au métier de "Concepteur et développeur d'applications web" (niveau Bac+3/4) délivrée par la Commission Nationale des Certifications Professionnelles. (Détails <a href="https://www.lemondeinformatique.fr/actualites/lire-l-ecole-de-code-le-wagon-decroche-un-titre-rncp-de-niveau-2-74172.html">ici</a>.)</p>
           </div>
@@ -227,8 +229,7 @@
             <img src="/assets/iima_logo.png" class="icon-logo" >
           </div>
           <div class="col-10">
-            <p><strong><a href="https://www.escpeurope.eu/fr">Indian Institute of Management</a></strong></p>
-            <em> (2008)</em>
+            <p><strong><a href="https://www.escpeurope.eu/fr">Indian Institute of Management</a></strong><em> (2008)</em></p>
             <p>Semestre d'études en Inde (Ahmedabad).</p>
           </div>
         </div>
@@ -316,4 +317,4 @@
 
 <br>
 <div class="small text-center"><i>Noémie Piérart, SIREN 818 080 327</i></div>
-<div id="photo-credits" class="text-center"><i>© Crédits photos <a href="https://unsplash.com/"> Unsplash.com</a> : <a href="https://unsplash.com/@grovemade?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Groovemade,</a> <a href=" https://unsplash.com/@jeshoots">Jeshoots.com,</a><a href="https://unsplash.com/@bookblock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Bookblock, </a><a href="https://unsplash.com/@cdr6934?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Chris Ried</a></i> </div>
+<div id="photo-credits" class="text-center"><i>© Crédits photos : <a href="https://unsplash.com/"> Unsplash.com</a> (<a href="https://unsplash.com/@grovemade?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Groovemade,</a> <a href=" https://unsplash.com/@jeshoots">Jeshoots.com,</a><a href="https://unsplash.com/@bookblock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Bookblock, </a><a href="https://unsplash.com/@cdr6934?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Chris Ried)</a></i> </div>
