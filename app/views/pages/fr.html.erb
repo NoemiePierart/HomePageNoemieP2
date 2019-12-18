@@ -39,7 +39,14 @@
     </div>
   </div>
 
-
+  <div>
+    <a href="pages/fr">
+      <img src="/assets/flag_fr.jpg" class="flag", alt="fr"%>
+    </a>
+    <a href="/eng">
+      <img src="/assets/flag_eng.png" class="flag", alt="eng"%>
+    </a>
+  </div>
 
 
 </div>
@@ -87,9 +94,10 @@
 
     <div id="technologies" class="container">
       <h2 class="title text-center aos-init aos-animate" data-aos="zoom-in">Technologies</h2>
-      <div class="row" id="bg-yellow">
-        <div class="text-center front-back w-100"><p><strong>Front-end </strong>(web design)</p></div>
-        <div class="row w-100">
+
+        <div class="text-center front-back w-100 bg-yellow">
+          <div><p><strong>Front-end </strong>(web design) : </p></div>
+          <div class="row w-100">
 
           <div class="card-techno col-4 aos-init aos-animate" data-aos="flip-left">
             <img src="/assets/html.png" alt="HTML logo" class="techno-logos">
@@ -120,11 +128,12 @@
             <img src="/assets/figma.jpg" alt="Responsive logo" class="techno-logos aos-init aos-animate" data-aos="flip-left">
             <div class="techno-names">Figma</div>
           </div>
+          </div>
         </div>
-        
-        <hr>
+      
 
-        <p class="text-center front-back w-100"><strong>Back-end</strong> (programmation)</p>
+        <div class="text-center front-back w-100 bg-yellow">
+          <div><strong>Back-end</strong> (programmation) : </p></div>
         <div class="row w-100">
 
             <div class="card-techno col-4 aos-init aos-animate" data-aos="flip-left">
@@ -183,32 +192,72 @@
     <div id="parcours">
       <div class="container">
         <h2 class="title text-center aos-init aos-animate" data-aos="zoom-in">Parcours</h2>
+
+        <div class="text-center"><img src="/assets/studies_icon.png" class="icon">Formation</div>
+        
+        <%# Le Wagon  %>
         <div class="row">
-          <div class="col-12 col-sm-2 text-center ">
-            <img src="/assets/studies_icon.png" class="icon" >
+         <div class="col-2 text-center ">
+            <img src="/assets/wagon_icon.png" class="icon-logo" >
           </div>
-          <p class="col-12 col-sm-10">Après trois ans de classes préparatoires littéraires, je suis diplômée de <a href="https://www.escpeurope.eu/fr">l'ESCP Europe Business School</a> à Paris, avec un semestre d'études en Inde.</p>
-        </div>
-        <br>
-        <div class="row">
-         <div class="col-12 col-sm-2 text-center ">
-            <img src="/assets/experience_icon.png" class="icon" >
-          </div>
-          <div class="col-12 col-sm-10 ">
-            <p>J'ai ensuite travaillé pendant 10 ans en gestion de projets, principalement dans le numérique : </p>
-            <ul>
-              <li><p>à l'<a href="https://www.oecd.org/fr/apropos/">OCDE</a> (Organisation de Coopération et de Développement Economiques) à Paris, dont 2 ans en mission de conseil sur le digital pour le gouvernement du Kazakhstan.</li></p>
-              <li><p>à <a href="https://www.bordeaux-metropole.fr/">Bordeaux Métropole</a> - 3 ans comme Directrice de projets sur la transformation numérique. </p></li>
-            </ul>
+          <div class="col-10"><strong>Bootcamp "fullstack developer" du <a href="https://www.lewagon.com/fr">Wagon</strong></a> <em>(2019)</em></p>
+          <p> Formation intensive de 9 semaines pour apprendre à coder (batch 325).</p> 
+          <p>Obtention de la certification au métier de "Concepteur et développeur d'applications web" (niveau Bac+3/4) délivrée par la Commission Nationale des Certifications Professionnelles. (Détails <a href="https://www.lemondeinformatique.fr/actualites/lire-l-ecole-de-code-le-wagon-decroche-un-titre-rncp-de-niveau-2-74172.html">ici</a>.)</p>
           </div>
         </div>
+      
+
+        <%#ESCP Euroope  %>
         <div class="row">
-         <div class="col-12 col-sm-2 text-center ">
-            <img src="/assets/wagon_icon.png" class="icon" >
+          <div class="col-2 text-center ">
+            <img src="/assets/escp_logo.png" class="icon-logo" >
           </div>
-          <p class="col-12 col-sm-10">En 2019, j'ai appris à coder grâce au bootcamp fullstack du <a href="https://www.lewagon.com/fr">Wagon</a> pour devenir développeur web. Cette formation intensive de 9 semaines m'a permis d'obtenir la certification au métier de "Concepteur et développeur d'applications web" (niveau Bac+3/4) délivrée par la Commission Nationale des Certifications Professionnelles (détails <a href="https://www.lemondeinformatique.fr/actualites/lire-l-ecole-de-code-le-wagon-decroche-un-titre-rncp-de-niveau-2-74172.html">ici</a>.)</p>
+          <div class="col-10 col-sm-10">
+            <p><strong><a href="https://www.escpeurope.eu/fr">ESCP Europe Business School, Paris</a></strong><em>(2005-2009)</em></p>
+            <p>Master en management, après 3 ans de classes préparatoires (littéraires)</p>
+          </div>
+        </div>
+        
+        <%#IIMA  %>
+        <div class="row">
+          <div class="col-2 text-center ">
+            <img src="/assets/iima_logo.png" class="icon-logo" >
+          </div>
+          <div class="col-10">
+            <p><strong><a href="https://www.escpeurope.eu/fr">Indian Institute of Management</a></strong><em>(200)</em></p>
+            <p>Semestre d'études en Inde (Ahmedabad)</p>
+          </div>
+        </div>
+
+        <hr>
+
+      <%# Titre "Expérience professionnelle"  %>
+       <div class="text-center"><img src="/assets/experience_icon.png" class="icon">Expérience professionnelle</div>
+      <%# Bordeaux Métropole %>
+      <div class="row">
+        <div class="col-2 text-center ">
+          <img src="/assets/bm_logo.png" class="icon-logo" >
+        </div>
+        <div class="col-10 ">
+          <p><strong>Bordeaux Métropole</strong><em>(2016-2019)</em></p>
+          <p>Directrice de projets sur la transformation numérique.</p>
         </div>
       </div>
+    
+      <%# OCDE%>
+      <div class="row">
+       <div class="col-2 text-center ">
+          <img src="/assets/oecd_logo.png" class="icon-logo">
+        </div>
+        <div class="col-10">
+          <p><strong>Organisation de Coopération et de Développement Economiques</strong><em>(2009-2016)</em></p>
+          <ul>
+            <li><p>Mission de conseil sur le digital pour le gouvernement du Kazakhstan (2014-2016).</li></p>
+            <li><p>Blabla sur DEV</p></li>
+          </ul>
+        </div>
+      </div>
+
     </div>
 
     <div id="portfolio" class="container">
@@ -260,3 +309,7 @@
     </div>
   </div>
 </div>
+
+<br>
+<div class="small text-center"><i>Noémie Piérart, SIREN 818 080 327</i></div>
+<div id="photo-credits" class="text-center"><i>© Crédits photos <a href="https://unsplash.com/"> Unsplash.com</a> : <a href="https://unsplash.com/@grovemade?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Groovemade,</a> <a href=" https://unsplash.com/@jeshoots">Jeshoots.com,</a><a href="https://unsplash.com/@bookblock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Bookblock, </a><a href="https://unsplash.com/@cdr6934?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Chris Ried</a></i> </div>

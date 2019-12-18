@@ -36,9 +36,9 @@ body{
 }
 
 
-#bg-yellow {
+.bg-yellow {
   background-color: #FFF9B1;
-  border-radius: 8px;
+  border-radius: 16px;
   margin-bottom: 8px
 }
 
@@ -57,6 +57,16 @@ p{
 
 #contact-infos p {
   padding: 0
+}
+
+#photo-credits {
+  font-size: 14px;
+  color: #7C90AF;
+  text-decoration: none
+} 
+
+.small{
+  font-size: 16px;
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
