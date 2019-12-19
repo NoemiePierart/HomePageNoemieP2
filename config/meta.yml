@@ -1,0 +1,5 @@
+meta_product_name: "Noemie Pierart"
+meta_title: "Noemie Pierart - Fullstack web developer"
+meta_description: "Fullstack web/mobile developer"
+meta_image: "banner-wordpress.jpg" # should exist in `app/assets/images/`
+twitter_account: "@NoemiePierart"   # required for Twitter Cards
