@@ -9,7 +9,6 @@
 
 .banner-container {
   background-color: white;
-  width: 270px;
   opacity: 0.8;
   text-align: center;
   margin: 0 auto;
@@ -18,3 +17,14 @@
   margin-top: 70px;
 }
 
+@media(max-width: 1300px) {
+  .banner-container {
+    width: 350px;
+  }
+}
+
+@media(max-width: 360px) {
+  .banner-container{
+    width: 270px;
+  }
+}
