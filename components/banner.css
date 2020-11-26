@@ -1,0 +1,30 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  height: 500px;
+  margin: 0 auto;
+  max-width: 900px
+}
+
+.banner-container {
+  background-color: white;
+  opacity: 0.8;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 8px 8px;
+  margin-top: 70px;
+}
+
+@media(max-width: 1300px) {
+  .banner-container {
+    width: 350px;
+  }
+}
+
+@media(max-width: 360px) {
+  .banner-container{
+    width: 300px;
+  }
+}

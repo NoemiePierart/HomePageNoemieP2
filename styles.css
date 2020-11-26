@@ -1,0 +1,90 @@
+@import url('components/banner.css');
+@import url('components/btn.css');
+@import url('components/cards.css');
+@import url('components/tab.css');
+@import url('components/images.css');
+@import url('components/logos.css');
+@import url('components/navbar.css');
+@import url('components/contact.css');
+
+body{
+  width: 95vw;
+  margin: 0 auto 25px auto;
+  font-family: 'Cormorant Garamond', serif;
+  color: $bleugris;
+  background-color: white;
+
+}
+
+.container {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-top: 45px;
+  padding-bottom: 16px;
+  max-width: 900px
+}
+
+h1 {
+  font-size: 2.5rem !important;
+}
+
+.container h2 {
+  margin-top:-50px;
+  padding-top: 35px;
+  margin-bottom: 16px;
+  font-size: 1.7rem !important
+
+}
+
+.bg-yellow {
+  background-color: #FFF9B1;
+  border-radius: 16px;
+  margin-bottom: 8px
+}
+
+h2 {
+	text-align: center;
+}
+
+h3{
+  font-size: 17px;
+}
+
+p{
+  font-size: 20px;
+  font-height: 0.6rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-left: 0;
+  margin-right: 0
+}
+
+#contact-infos p {
+  padding: 0
+}
+
+#contact-infos a:hover{
+  text-decoration: underline;
+}
+
+#photo-credits {
+  font-size: 14px;
+  color: #7C90AF !important;
+} 
+
+#photo-credits a {
+  color: #7C90AF !important;
+} 
+
+#photo-credits a:hover {
+  color: black;
+  text-decoration: underline;
+  padding-bottom: 2px
+}
+
+.small{
+  font-size: 16px;
+}
+
+.project-title {
+  margin: 10px auto;
+}
