@@ -39,6 +39,7 @@
 #contact-infos {
   position: absolute;
   right: 0;
+  top: 15px;
   background-color: $grischic;
   width: 100%;
   font-weight: bold;
@@ -47,4 +48,9 @@
 #contact-infos p {
   padding: 9px;
   text-align: center
+}
+
+#contact-infos .contact-platforms {
+  font-size: 27px;
+  margin-top: 10px
 }
