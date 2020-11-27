@@ -59,10 +59,15 @@ p{
 }
 
 #contact-infos p {
-  padding: 0
+  padding: 0;
+}
+
+#contact-infos a {
+  color: #3c4859;
 }
 
 #contact-infos a:hover{
+  color: #3c4859;
   text-decoration: underline;
 }
 
