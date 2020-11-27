@@ -19,8 +19,11 @@ body{
 .container {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   margin-top: 45px;
-  padding-bottom: 16px;
-  max-width: 900px
+  padding: 35px 16px;
+  max-width: 900px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  
+}
 }
 
 h1 {
