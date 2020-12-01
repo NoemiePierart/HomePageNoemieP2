@@ -2,9 +2,7 @@
   justify-content: space-between;
   background: white;
   height: 42px;
-  border-bottom: 2px solid $grischic;
-  width: 96vw;
-  margin-left: 2vw;
+  width: 100vw;
 }
 
 .navbar-lewagon .navbar-collapse {
