@@ -9,7 +9,7 @@
 
 
 html {
-  scroll-padding-top: 40px
+  scroll-padding-top: 50px
 }
 
 body{
@@ -67,7 +67,7 @@ p, .small {
   font-height: 0.6rem;
   margin-bottom: 0;
   padding-bottom: 0;
-  margin-left: 0;
+  margin-left: 0 !important;
   margin-right: 0
 }
 
@@ -117,6 +117,7 @@ a {
 .project-technos {
   margin: 10px;
   margin-right: 10px;
+  opacity: 0.8;
 }
 
 .details a:hover {
@@ -127,4 +128,10 @@ a {
   text-decoration: underline;
   padding-bottom: 3px;
   opacity: 0.7;
+}
+
+#job-list, #job-list li {
+  list-style-type: '- ';
+  margin-left: 0;
+  padding-left: 10px;
 }

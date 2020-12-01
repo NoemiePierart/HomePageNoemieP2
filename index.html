@@ -16,7 +16,9 @@
     <link href="styles.css" rel="stylesheet">
 
     <!-- Favicon -->
-    <link rel=“icon” href=”favicon.ico” type=“image/x-icon” />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
     <!-- Google meta tags -->
     <meta name="description" content="Développeur Web (fullstack) : conception et réalisation d'applications web/mobile.">
@@ -355,8 +357,8 @@
         </div>
         <div class="col-10">
           <p><h4><a href="https://www.oecd.org/fr/apropos/">OCDE</a><span class="small"> - 2009-2016</span></h4>
-          <p>Organisation de Coopération et de Développement Economiques</p>
-          <ul>
+          <p>Organisation de Coopération et de Développement Economiques :</p>
+          <ul id="job-list">
             <li><p>Missions de conseil sur le digital pour le gouvernement du Kazakhstan <em>- 2014-2016</em>.</li></p>
             <li><p>Consultante partenariats et réseaux - <em> 2009-2013 </em>.</p></li>
           </ul>
@@ -464,6 +466,11 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js">
         AOS.init();   
+    </script>
+    <script>
+      $('.nav-link').on('click',function() {
+        $('.navbar-collapse').collapse('hide');
+      });
     </script>
    
   </body>
