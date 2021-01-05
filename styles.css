@@ -20,7 +20,8 @@
 
 
 html {
-  scroll-padding-top: 50px
+  scroll-padding-top: 50px;
+  font-size: 110%;
 }
 
 body{
