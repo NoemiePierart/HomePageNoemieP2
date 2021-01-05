@@ -21,7 +21,9 @@
 
 html {
   scroll-padding-top: 50px;
-  font-size: 120%;
+  -moz-text-size-adjust: 120%; 
+  -webkit-text-size-adjust: 120%;
+  -ms-text-size-adjust:120%;
 }
 
 body{
