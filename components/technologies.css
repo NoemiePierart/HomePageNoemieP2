@@ -1,0 +1,39 @@
+/* TECHNOLOGIES SECTION */
+
+.cards-techno {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 16px;
+}
+
+/* Tablets */
+@media(min-width: 768px) {
+	.cards-techno{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+/* Desktops */
+@media (min-width: 992px) {
+	.cards-techno{
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+}
+
+.card-techno {
+    padding: 15px;
+    background-color: #F9F9F9;
+}
+
+.techno-logos {
+  width: 40px;
+  height: 40px;
+  -webkit-filter: grayscale(20%); 
+  filter: grayscale(20%);
+  padding-right: 12px;
+}
+
+.techno-names {
+  font-size: 1rem;
+  padding-top: 4px;
+}

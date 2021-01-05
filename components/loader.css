@@ -1,0 +1,39 @@
+html{
+  background-color: #ECE9E7; 
+  overflow:hidden;
+}
+
+.dot{
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  position:absolute;
+  opacity:0;
+  transform-origin:0% 0%;
+}
+
+#loader{
+  position: absolute;
+  animation:spin 15s linear infinite;
+  top: 50%;
+  left: 50%;
+}
+
+@keyframes spin{
+  from{transform:rotate(360deg);}
+    to{transform:rotate(0deg);}
+}
+
+@keyframes osc {
+  0%{transform:scale(0.5); opacity:0}
+  50%{transform:scale(1.5); opacity:1}
+  100%{transform:scale(0.5); opacity:0}
+}
+
+@keyframes rainbow{
+  0%{background:#93B2B4}
+  25%{background:#3c4859}
+  50%{background: #cee4e5}
+  75%{background: #b7aba4}
+  100%{background:#B7ABA4;}
+}

@@ -1,0 +1,39 @@
+/* PORTFOLIO SECTION */
+
+.project-title {
+  margin: 10px;
+}
+
+.details, .details a {
+  text-decoration: italic;
+  color: gray;
+  font-size: 1rem;
+}
+
+.project-technos {
+  margin: 10px;
+  margin-right: 10px;
+  opacity: 0.8;
+}
+
+.details:hover {
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+}
+
+.small {
+  font-size: 1.2rem;
+}
+
+/*Portfolio images */
+.img-portfolio {
+  width: 24%;
+  height: 30%;
+  transition:all 0.3s ease;
+  border-radius: 7%;
+}
+
+.img-portfolio:hover {
+  padding: 7px;
+  cursor: pointer;
+}

@@ -1,0 +1,50 @@
+/* BACKGROUND SECTION */
+
+.logo-container {
+	
+	padding-left: 8px;
+	margin: 0px auto;
+}
+
+.logo {
+	width: 40px;
+	height: 40px;
+	margin: 0px auto;
+}
+
+.bg-logo-container {
+	display: flex;
+	flex-direction: column;
+	padding: 0 6px 0 0;
+	text-align: center
+}
+
+.background-container {
+	padding: 0px 0px 0px 8px;
+
+}
+
+.small {
+	font-size: 0.75rem;
+	font-family: 'Avenir', sans-serif;
+	color: gray;
+    /* letter-spacing: 0.15rem; */
+    -webkit-font-smoothing: antialiased;
+}
+
+/*Bullet points for the OECD section :*/
+
+#job-list {
+  list-style-type: none;
+}
+
+#job-list > li {
+	text-indent: -0.6rem;
+}
+
+#job-list > li:before {
+	font-family: sans-serif;
+ 	content: '-';
+ 	margin-left: -0.6rem;
+ 	position: absolute;
+}

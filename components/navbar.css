@@ -1,22 +1,72 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+#navbar {
   height: 42px;
-  width: 100vw;
-}
-
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 2;
   background-color: white;
+  padding: 1rem 1rem;
 }
 
-.navbar-nav {
-	padding-left: 8px
+#bars {
+  font-size: 1rem;
+  margin-left: 10px
 }
 
-.navbar-toggler {
-	border: none;
+.section-link{
+  padding: 10px;
+  margin: 0 8px,
 }
-a.nav-link {
-	padding-bottom: 0px
+
+.section-link:hover, .language:hover{
+  border-bottom: 3px solid gray;
+}
+
+#btn-flat{
+  background-color: #003471;
+  padding: 10px 12px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.8;
+  margin-right: 12px;
+  transition: opacity 0.3s ease;
+  color: white !important;
+  text-decoration: none !important;
+  font-size: 0.70rem;
+  letter-spacing: 0.05rem;
+}
+
+#btn-flat:hover {
+  opacity: 1;
+}
+
+#navbar-vertical {
+  display: none;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: white;
+  z-index: 1000;
+  padding: 50px;
+  position:fixed;
+  top:42px;
+  left:0px;
+}
+
+#navbar-vertical h4 {
+  padding: 20px 0px;
+  border-bottom: 1px solid #bacecf;
+}
+
+#navbar-vertical h4:hover {
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.language {
+  padding: 0px 6px;
+}
+
+#language1 {
+  border-right: 2px solid gray;
+}
+
+#closing-btn {
+  display: none;
 }

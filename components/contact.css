@@ -1,56 +1,41 @@
-.form {
-  border-radius: 3px;
-  box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-  background-color: $grischic;
-  height: 310px;
-  line-height: 0.1rem;
+/* CONTACT SECTION */
+
+#contact-img {
+  height: 290px;
 }
 
-.form-element {
-  width: 100%;
-  margin: 8px 0;
-  height: 40px;
-  padding: 8px 16px
-}
-
-.form-element-message {
-  width: 100%;
-  height: 120px;
-  margin: 8px 0;
-  padding: 16px 16px
-}
-
-.form-element p {
-  padding: 8px 16px
-}
-
-.form-element-message p {
-  padding: 8px 16px
-}
-
-
-#contact-container {
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  height: 310px;
+#contact-img-container {
+  margin-top: 20px;
+  color: rgb(68, 68, 67);
 }
 
 #contact-infos {
-  position: absolute;
-  right: 0;
-  top: 15px;
-  background-color: $grischic;
-  width: 100%;
-  font-weight: bold;
+  color: white;
 }
 
-#contact-infos p {
-  padding: 9px;
-  text-align: center
+.contact-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
-#contact-infos .contact-platforms {
-  font-size: 27px;
-  margin-top: 10px
+#contact-links {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.contact-link{
+  width: 30px;
+  height: 30px;
+  margin: 0 30px
+}
+
+#contact-infos a {
+  color: white !important;
+}
+
+#contact-infos a:hover{
+  color: #3c4859;
+  text-decoration: underline;
 }

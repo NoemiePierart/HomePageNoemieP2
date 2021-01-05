@@ -1,11 +1,22 @@
-@import url('components/banner.css');
-@import url('components/btn.css');
-@import url('components/cards.css');
-@import url('components/tab.css');
-@import url('components/images.css');
-@import url('components/logos.css');
+/* Generic components*/
 @import url('components/navbar.css');
+@import url('components/banner.css');
+@import url('components/images.css');
+/*@import url('components/loader.css');*/
+
+/* Section-specific components*/
+@import url('components/services.css');
+@import url('components/technologies.css');
+@import url('components/portfolio.css');
+@import url('components/background.css');
 @import url('components/contact.css');
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('components/avenir.otf');
+  font-weight: normal;
+  font-style: normal
+}
 
 
 html {
@@ -13,115 +24,142 @@ html {
 }
 
 body{
-  width: 95vw;
-  margin: 0 auto 25px auto;
-  font-family: 'Cormorant Garamond', serif;
-  color: #212529;
-  background-color: white;
-
+  /*width: 95vw;*/
+  margin: 0 auto;
+  font-family: "Cormorant";
+  color: rgb(68, 68, 67);
+  background-color: #FFFFFF;
+  text-rendering: optimizeLegibility;
+  font-weight: normal;
+  font-style: normal;
+  list-style: none;
 }
 
 .container {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  margin-top: 45px;
-  padding: 35px 16px;
+  margin-top: 5px;
+  padding: 35px 25px;
   max-width: 900px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
+/*Banner title */
 h1 {
-  font-size: 2.5rem !important;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  margin-bottom: 0px;
 }
 
-.container h2 {
-  margin-top:-50px;
-  padding-top: 35px;
-  margin-bottom: 16px;
-  font-size: 1.7rem !important
-
+/*Banner sub-title */
+h2{
+  font-size: 0.8rem;
 }
 
-.bg-yellow {
-  background-color: #FFF9B1;
-  border-radius: 16px;
-  margin-bottom: 8px
+/* Block titles and navbar titles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Avenir', sans-serif;;
+  text-transform: uppercase;
 }
 
-h2 {
+/* Block titles*/
+h3 {
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
   text-align: center;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 12px;
 }
 
-h3{
-  font-size: 17px;
+/* Navbar titles */
+h4 {
+  font-size: 0.70rem;
+  letter-spacing: 0.15rem;
+  -webkit-font-smoothing: antialiased;
 }
 
-h4, h4 a, h4 a:hover {
-  font-size: 1.2rem;
-  color: #003471;
-  font-weight: bold;
-  padding-bottom: 2px;
+h5{
+  font-size: 0.9rem;
+  margin: 0;
 }
 
-p, .small {
-  font-size: 1.2rem;
-  font-height: 0.6rem;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  margin-left: 0 !important;
-  margin-right: 0
+h6 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+  -webkit-font-smoothing: antialiased
 }
 
-a {
-  color: #212529;
-}
-
-#contact-infos p {
+hr{
+  margin: 7px 0 19px 0;
   padding: 0;
 }
 
-#contact-infos a {
-  color: #3c4859;
+/* Smartphones and Tablets */
+@media(max-width: 769px) {
+  .hidden-sm {
+    display: none;
+  }
 }
 
-#contact-infos a:hover{
-  color: #3c4859;
-  text-decoration: underline;
+/* Large screens */
+@media (min-width: 770px)  {
+  .hidden-lg { 
+    display: none; 
+  }  
 }
 
-#photo-credits {
-  font-size: 1rem;
-  color: #7C90AF !important;
-} 
-
-#photo-credits a {
-  color: #7C90AF !important;
-} 
-
-#photo-credits a:hover {
-  color: black;
-  text-decoration: underline;
-  padding-bottom: 2px
+.bg-gray-light {
+  background-color: #F5F5F5;
 }
 
-.project-title {
-  margin: 10px;
+.bg-green {
+  background-color: #E7EEEE;
 }
 
-.details, .details a {
+.bg-brown {
+  background-color: #ece9e7;
+}
+
+.bg-light-brown {
+  background-color: #f3f0ed;
+}
+
+.bg-gray {
+  background-color: #D9D9D9;
+}
+
+.bg-white{
+  background-color: white
+}
+
+.bg-blue {
+  background-color: #616A77;
+  color: white;
+}
+
+
+a {
+  color: rgb(68, 68, 67) !important;
   text-decoration: none !important;
-  text-decoration: italic;
-  color: gray;
-  font-size: 1rem;
 }
 
-.project-technos {
-  margin: 10px;
-  margin-right: 10px;
-  opacity: 0.8;
+p {
+  margin: 5px auto;
 }
 
-.details a:hover {
-  border-bottom: 1px solid gray;
+#footer, #footer a  {
+  font-size: 0.7rem;
+  margin: 0 auto;
+  /*  color: #7C90AF !important;*/
+  color: white !important;
+} 
+
+#footer>a:hover {
+  border-bottom: 1px solid #7C90AF;
+  padding-bottom: 2px;
+}
+
+#footer hr {
+    background-color: #e4e4e4;
 }
 
 .underline {
@@ -130,8 +168,9 @@ a {
   opacity: 0.7;
 }
 
-#job-list, #job-list li {
-  list-style-type: '- ';
-  margin-left: 0;
-  padding-left: 10px;
+.dot {
+  color: #c6946d;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-right: 6px;
 }

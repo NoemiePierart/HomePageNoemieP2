@@ -1,20 +1,61 @@
-.banner {
+#banner {
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
-  height: 500px;
   margin: 0 auto;
   max-width: 900px
 }
 
-.banner-container {
+#banner-container {
   background-color: white;
-  opacity: 0.8;
-  text-align: center;
-  margin: 0 auto;
-  border-radius: 8px;
-  padding: 8px 8px;
-  margin-top: 70px;
+  opacity: 0.9;  
+  padding: 10px
+}
+
+/* Mobile screens */
+@media(max-width: 360px) {
+  #banner {
+    height: 95vh;
+    padding: 150px 0;
+  }
+
+  #banner-container{
+    width: 80%;
+    margin: 70px auto 15px auto;
+  }
+}
+
+/* Tablets */ 
+@media(min-width: 361px) and (max-width: 769px) {
+
+  #banner {
+    height: 500px;
+    padding: 150px 0;
+  }
+
+  #banner-container{
+    width: 300px;
+    margin: 70px auto 15px auto;
+  }
+}
+
+/* Desktops */
+@media(min-width: 770px) {
+  #banner {
+    height: 400px;
+    padding: 150px 0;
+  }
+
+  #banner-container{
+    width: 50%;
+    margin: 65px auto 15px auto;
+  }
+}
+
+
+.bordered{
+  border: 1px solid gray;
+  padding: 10px;
+
 }
 
 @media(max-width: 1300px) {
@@ -23,8 +64,24 @@
   }
 }
 
-@media(max-width: 360px) {
-  .banner-container{
-    width: 300px;
-  }
+
+
+#avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
+
+#intro {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin: 0px auto;
+  padding: 20px;
+  max-width: 900px;
+  background-color: white
+}
+
+#intro p {
+  margin: 0 auto;
+}
+
+
