@@ -51,8 +51,6 @@
     <!-- Google meta tags -->
     <meta name="description" content="Développeur Web (fullstack) : Réalisation de sites internet et applications web/mobile.">
 
-    
-
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,700&display=swap" rel="stylesheet">
@@ -113,27 +111,16 @@
       <h4 class="section-link"><a href="#contact">Contact</a></h4>
     </div>
 
-    <script>
-      const bars = document.querySelector("#bars");
-      const navbar_vertical = document.querySelector("#navbar-vertical");
-      bars.addEventListener("click", (event) => {
-        if (navbar_vertical.style.display === 'none') {
-          navbar_vertical.style.display = 'block';
-        } else  {
-          navbar_vertical.style.display = 'none'
-        }
-      })
-    </script>
   </div>
 
-  <div id="banner" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('images/banner.jpg');">
+  <div id="accueil">
+    <div id="banner" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('images/banner.jpg');">
     <div id="banner-container">
       <div class="bordered d-flex justify-content-around align-items-center">
         <img src="images/NP_avatar.jpg" alt="Avatar" id="avatar">
         <div class="text-center">
-          <h1>Noémie Piérart</h1><br>
+          <h1 class="mb-3">Noémie Piérart</h1>
           <h2>Développeur web</h2>
-          <!-- <p>Réalisation de sites internet <br>et applications web/mobile</p> -->
         </div>
       </div>
     </div>
@@ -145,7 +132,9 @@
   <div id="intro">
     <p>Après une école de commerce (ESCP Europe) et 10 ans d’expérience<strong> en gestion de projets digitaux</strong>, en France et à l’international, j’ai décidé d’apprendre à <strong>coder</strong> avec <strong>Le Wagon</strong>, puis de suivre une spécialisation en Javascript et Python.<br><br>Je me suis passionnée pour la création d’applications web/mobile et suis devenue <strong>Développeur Fullstack</strong> en <strong>freelance</strong>.
     </p>
+  </div>  
   </div>
+
 
   <div id="services" class="container bg-green">
       
@@ -159,10 +148,10 @@
   
     <!-- Responsive design -->
     <div class="bg-green">
-      <div class="d-flex justify-content-between">
-        <h5 class="text-center"><span class="h5-numbers">1</span><span class="dot">.</span>DESIGN</h5>
-        <img src="images/services/design.png" class="logo-services d-sm-none" alt="Design Icon">
-      </div> 
+      <div class="d-flex align-items-center">
+        <img src="images/services/design.png" class="logo-services" alt="Design Icon">
+        <h5 class="text-center mt-2">DESIGN</h5>
+      </div>
       <div class="row">
         <div class="col-xs-8 col-sm-7">
           <p>Création de maquettes du parcours-utilisateur, avec un design <strong>"responsive"</strong> qui s'adapte à tous les écrans, y compris mobiles. <br>
@@ -179,11 +168,9 @@
     
     <!-- Fullstack development -->
     <div class="bg-green">
-      <div class="d-flex justify-content-between">
-        <h5 class="text-center"><span class="h5-numbers">2</span><span class="dot">.</span>DEVELOPPEMENT</h5>
-        <img src="images/services/development.png" class="logo-services d-sm-none" alt="Code Icon">
-
-
+      <div class="d-flex align-items-center">
+        <img src="images/services/development.png" class="logo-services" alt="Code Icon">
+        <h5 class="text-center mt-2">DEVELOPPEMENT</h5> 
       </div> 
       <div class="row">
         <div class="col-xs-12 col-sm-7">
@@ -380,7 +367,7 @@
       </div>
       <div class="col-10 background-container">
         <h5><a href="https://www.bordeaux-metropole.fr/">Développeur web</a></h5>
-        <div class="small">2021</div>
+        <div class="small">Depuis 2020</div>
         <p>Réalisation de sites internet et applications web/mobile</p>
       </div>
     </div>
@@ -558,19 +545,33 @@
       }; 
     </script> 
 
-    <!-- AOS Animations -->
+    
     <script>
-      AOS.init(
-        // { duration: 500}
-      );
+      // Toggle the vertical navbar when the user clicks on the bars
+      const bars = document.querySelector("#bars");
+      const navbar_vertical = document.querySelector("#navbar-vertical");
+      bars.addEventListener("click", (event) => {
+        if (navbar_vertical.style.display === 'none') {
+          navbar_vertical.style.display = 'block';
+        } else  {
+          navbar_vertical.style.display = 'none'
+        }
+      })
+      // Hide the vertical navbar when the user clicks on a link
+      const section_links = document.querySelectorAll(".section-link")
+      section_links.forEach((section_link) => {
+        section_link.addEventListener("click", (event) => {
+          console.log("Pouet");
+          navbar_vertical.style.display = 'none';
+        })
+      })
     </script>
 
-    <!-- Navbar collapse on click -->
+    <!-- AOS Animations -->
     <script>
-      $('.nav-link').on('click',function() {
-        $('.navbar-collapse').collapse('hide');
-      });
+      AOS.init();
     </script>
+
    
   </body>
 </html>

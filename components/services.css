@@ -3,10 +3,7 @@
 .logo-services {
   width: 35px;
   height: 35px;
-}
-
-.h5-numbers {
-  font-size : 1.2rem;
+  margin-right: 10px;
 }
 
 #code {
@@ -23,4 +20,3 @@ ul li::before {
   margin-left: -1rem;
   margin-right: 1rem ;
 }
-
