@@ -8,16 +8,8 @@
 @import url('components/services.css');
 @import url('components/technologies.css');
 @import url('components/portfolio.css');
-@import url('components/background.css');
+@import url('components/about.css');
 @import url('components/contact.css');
-
-@font-face {
-  font-family: 'Avenir';
-  src: url('components/avenir.otf');
-  font-weight: normal;
-  font-style: normal
-}
-
 
 html {
   scroll-padding-top: 50px;
@@ -29,71 +21,78 @@ html {
 body{
   /*width: 95vw;*/
   margin: 0 auto;
-  font-family: "Cormorant";
   color: rgb(68, 68, 67);
   background-color: #FFFFFF;
   text-rendering: optimizeLegibility;
   font-weight: normal;
   font-style: normal;
   list-style: none;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Cormorant', serif;
+  letter-spacing: 0.03em;
+  font-size: 1.2em;
+}
+
+.section {
+  padding: 0 6vw;
 }
 
 .container {
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  margin-top: 5px;
-  padding: 35px 25px;
+  margin: 0 auto;
+  padding: 35px 0;
   max-width: 900px;
-}
-
-/*Banner title */
-h1 {
-  font-size: 1rem;
-  letter-spacing: 0.05rem;
-  margin-bottom: 0px;
-}
-
-/*Banner sub-title */
-h2{
-  font-size: 0.8rem;
 }
 
 /* Block titles and navbar titles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Avenir', sans-serif;;
-  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  color:rgb(68, 68, 67)
 }
 
-/* Block titles*/
-h3 {
-  font-size: 1.1rem;
-  letter-spacing: 0.1rem;
-  text-align: center;
-  -webkit-font-smoothing: antialiased;
+/* Banner text */ 
+h1, h2 {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  margin-bottom: 0px;
+}
+
+/* Banner title */
+h1 {
+  font-size: 1.7em;
+}
+
+/* Banner sub-title */
+h2 {
+  font-size: 1.2em;
   margin-bottom: 12px;
 }
 
-/* Navbar titles */
-h4 {
-  font-size: 0.70rem;
-  letter-spacing: 0.15rem;
-  -webkit-font-smoothing: antialiased;
+h3, h4, h5  {
+  font-family: 'Spectral';
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
-h5{
-  font-size: 0.9rem;
-  margin: 0;
+/* Section titles */
+h3 {
+  font-size: 1.5em !important;
+  margin-bottom: 24px !important
 }
 
-h6 {
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 0.15rem;
-  -webkit-font-smoothing: antialiased
+/* CV titles */
+h4{
+  font-size: 0.9em !important;
+  text-transform: uppercase
+}
+
+h5 {
+  font-size: 1em !important;
 }
 
 hr{
   margin: 7px 0 19px 0;
   padding: 0;
+  border-bottom: 1px solid #ccb8b8;
 }
 
 /* Smartphones and Tablets */
@@ -110,8 +109,12 @@ hr{
   }  
 }
 
+.white {
+  color: white
+}
+
 .bg-gray-light {
-  background-color: #F5F5F5;
+  background-color: #F7F4F4;
 }
 
 .bg-green {
@@ -150,7 +153,6 @@ p {
 }
 
 #footer, #footer a  {
-  font-size: 0.7rem;
   margin: 0 auto;
   color: white !important;
 } 
@@ -169,6 +171,13 @@ p {
   padding-bottom: 3px;
   opacity: 0.7;
 }
+
+.hover-bold:hover {
+  font-weight: 600;
+  border-bottom: 1px solid gray;
+  cursor: pointer
+}
+
 /*
 .dot {
   color: #c6946d;

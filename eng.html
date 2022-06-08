@@ -17,27 +17,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Primary Meta Tags -->
-    <title>Noemie Pierart - Web Developer (fullstack)</title>
-    <meta name="title" content="Noémie Piérart, Web Developer (fullstack)">
-    <meta name="description" content="Creating websites and web/mobile apps. Learnt to code at Le Wagon. &#128187; Python | Javascript | Ruby on Rails | Responsive Design | SQL">
+    <title>Noémie Piérart - Fullstack Web Developer</title>
+    <meta name="title" content="Noémie Piérart, Fullstack Web Developer">
+    <meta name="description" content="Fullstack Web Developer | Creating websites and web apps. | Ruby on Rails | Javascript | Webflow | Le Wagon | Bordeaux">
 
     <!-- Open Graph / Facebook Meta tags -->
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="article" />
     <meta property="og:url" content="https://www.noemie-pierart.fr" />
-    <meta property="og:title" content="Noémie Piérart, Web Developer (fullstack)">
-    <meta property="og:description" content="Creating websites and web/mobile apps. Learnt to code at Le Wagon. &#128187; Python | Javascript | Ruby on Rails | Responsive Design | SQL">
-    <meta property="og:site_name" content="Noémie Piérart, Web Developer (fullstack)"/>
-    <meta property="og:image" content="https://raw.githubusercontent.com/NoemiePierart/noemie-pierart.fr/master/social_preview.png" />
+    <meta property="og:title" content="Noémie Piérart, Fullstack Web Developer">
+    <meta property="og:description" content="Fullstack Web Developer | Creating websites and web apps. | Ruby on Rails | Javascript | Webflow | Le Wagon | Bordeaux">
+    <meta property="og:site_name" content="Noémie Piérart, Fullstack Web Developer"/>
+    <meta property="og:image" content="https://github.com/NoemiePierart/noemie-pierart.fr/blob/master/images/social_networks/social_preview_lg.png?raw=true" />
 
     <!-- Twitter Meta Tags-->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://metatags.io/">
-    <meta property="twitter:title" content="Noémie Piérart, Développeur Web (fullstack)">
-    <meta property="twitter:description" content="Creating websites and web/mobile apps. Learnt to code at Le Wagon. &#128187; Python | Javascript | Ruby on Rails | Responsive Design | SQL">
-    <meta property="twitter:image" content="https://raw.githubusercontent.com/NoemiePierart/noemie-pierart.fr/master/social_preview.png">
+    <meta property="twitter:title" content="Noémie Piérart, Fullstack Web Developer">
+    <meta property="twitter:description" content="Fullstack Web Developer | Creating websites and web apps. | Ruby on Rails | Javascript | Webflow | Le Wagon | Bordeaux">
+    <meta property="twitter:image" content="https://github.com/NoemiePierart/noemie-pierart.fr/blob/master/images/social_networks/social_preview_lg.png?raw=true">
     
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
     <!-- Stylesheets -->
     <link href="styles.css" rel="stylesheet">
@@ -48,52 +51,49 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
     <!-- Google meta tags -->
-    <meta name="description" content="Creating websites and web/mobile apps. Learnt to code at Le Wagon. &#128187; Python | Javascript | Ruby on Rails | Responsive Design | SQL">
+    <meta name="description" content="Développeur Web (fullstack) : Réalisation de sites internet et applications web/mobile.">
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600&display=swap" rel="stylesheet">
-    
-    <!-- Fontawsome -->
-    <script src="https://kit.fontawesome.com/873e0e2f7d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Data Animate On Style (AOS) -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Fontawsome -->
+    <script src="https://kit.fontawesome.com/a95a4f8827.js" crossorigin="anonymous"></script>
     
   </head>
 
   <div id="loader"></div> 
 
-  <body data-aos-duration="2000">
-
   <!-- NAVBAR -->
-  <div class="fixed-top d-flex justify-content-between align-items-center" id="navbar">
+  <div class="d-flex justify-content-between align-items-center" id="navbar">
     
     <!-- Logo : all screens -->
-    <h1 class="mr-3">Noémie Piérart</h1>
+    <a href="index.html"><div id="logo">Noémie Piérart</div></a>
       
     <!-- Menu : only from lg-screens -->
     <div class="d-none d-lg-block mt-2">
       <div class="d-flex justify-content-between">
-        <h4><a href="#accueil" class="section-link">Home</a></h4>
-        <h4><a href="#technologies" class="section-link">Technologies</a></h4>
-        <h4><a href="#parcours" class="section-link">Background</a></h4>
-        <h4><a href="#portfolio" class="section-link">Portfolio</a></h4>
+        <div><a href="/eng/#services" class="navbar-link">Services</a></div>
+        <div><a href="/eng/#portfolio" class="navbar-link">Portfolio</a></div>
+        <div><a href="/eng/#technologies" class="navbar-link">Technologies</a></div>
+        <div><a href="/eng/#about" class="navbar-link">About</a></div>
+        
       </div>
     </div>
 
     <div class="d-flex justify-content-between align-items-center">
       <!-- Contact : only from md-screens -->
       <div>
-          <h4 class="d-none d-sm-block mt-2"><a href="#contact" id="btn-flat">Contact</a></h4>
+          <div class="d-none d-sm-block mt-2"><a href="#contact" id="btn-flat">CONTACT</a></div>
       </div>
 
       <!-- Languages : all screens -->
       <div class="d-flex mt-2">
-        <h4><a href="index.html" class="language" id="language1">FR</a></h4>
-        <h4><a href="eng.html" class="language">ENG</a></h4></h4>
+        <div><a href="index.html" class="language navbar-link" id="language1">FR</a></div>
+        <div><a href="eng.html" class="language navbar-link">ENG</a></div>
       </div>
 
       <!-- Bars : only on small-screens -->
@@ -102,402 +102,668 @@
       </div>
     </div>
     
-    <div id="navbar-vertical">
-      <h4 class="section-link"><a href="#accueil">Home</a></h4>
-      <h4 class="section-link"><a href="#technologies">Technologies</a></h4>
-      <h4 class="section-link"><a href="#parcours">Background</a></h4>
-      <h4 class="section-link"><a href="#portfolio">Portfolio</a></h4>
-      <h4 class="section-link"><a href="#contact">Contact</a></h4>
+    <div id="vertical-navbar">
+      <div class="vertical-navbar-link"><a href="/eng/#technologies">Technologies</a></div>
+      <div class="vertical-navbar-link"><a href="/eng/#portfolio">Portfolio</a></div>
+      <div class="vertical-navbar-link"><a href="/eng/#parcours">Abouts</a></div>
+      <div class="vertical-navbar-link"><a href="/eng/#contact">Contact</a></div>
     </div>
 
   </div>
 
-  <div id="accueil">
-    <div id="banner" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('images/banner.jpg');">
+
+  <div id="banner" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url('images/banner.jpg');">
     <div id="banner-container">
-      <div class="bordered d-flex justify-content-around align-items-center">
-        <img src="images/NP_avatar.jpg" alt="Avatar" id="avatar">
-        <div class="text-center">
-          <h1 class="mb-3">Noémie Piérart</h1>
-          <h2>Web Developer</h2>
+      <div class="bordered">
+        <div class="d-flex justify-content-around align-items-center">
+          <img src="images/NP_avatar.jpg" alt="Avatar" id="avatar">
+          <div class="text-center">
+            <h1 class="mb-3">Noémie Piérart</h1>
+            <h2>Web Developer</h2>
+            <h2>Fullstack | Ruby on Rails</h2>
+          </div>
+        </div>
+        <!-- Mobile version : add the CTA -->
+        <div class="d-sm-none"> 
+          <div class="text-center my-3"><a href="#contact" id="btn-flat">Contact</a></div> 
         </div>
       </div>
     </div>
-    <!-- Mobile version : add the CTA -->
-    <br>
-    <h4 class="d-sm-none text-center ml-5"><a href="#contact" id="btn-flat">Contact</a></h4> 
-  </div>
-
-  <div id="intro">
-    <p>After a Business School (ESCP Europe) and 10 years of experience in <strong>digital projects management</strong>, I decided to learn to code with <strong>Le Wagon</strong>, and then dived more deeply into Python and JavaScript. <br> <br>
-    I became passionate about creating web/mobile applications and I'm now a freelance fullstack Web Developer. 
-    </p>
-  </div>  
-  </div>
-
-
-  <div id="services" class="container bg-green">
-      
-    <h3 class="text-center">Creating websites and web/mobile applications</h3>
-
-    <p>Would you like to create a website or a web/mobile app ? Or to reshape an existing project ?
-    <br>
-    I can build your project from A to Z. </p>
-
-    <br>
-  
-    <!-- Responsive design -->
-    <div class="bg-green">
-      <div class="d-flex align-items-center">
-        <img src="images/services/design.png" class="logo-services" alt="Design Icon">
-        <h5 class="text-center mt-2">DESIGN</h5>
-      </div>
-      <div class="row">
-        <div class="col-xs-8 col-sm-7">
-          <p>Creation of <strong>mockups</strong> of the user-journey, with a <strong>"responsive"</strong> design that automatically adjusts to any device, including mobiles.<br>
-          <br>
-          Adding tailor-made features adapted to your needs: showcase, e-commerce, authentication, search, geolocalisation, payment, mailings, etc.
-          </p>
-        </div>
-        <div class="col-xs-4 col-sm-5 d-flex mx-auto">
-          <img src="images/services/responsive.png" alt="Responsive Design">
-        </div>   
-      </div>  
-    </div>
-    <br>
     
-    <!-- Fullstack development -->
-    <div class="bg-green">
-      <div class="d-flex align-items-center">
-        <img src="images/services/development.png" class="logo-services" alt="Code Icon">
-        <h5 class="text-center mt-2">DEVELOPMENT</h5> 
-      </div> 
-      <div class="row">
-        <div class="col-xs-12 col-sm-7">
-          <p>"Full-stack" technical production: deploying the <strong>code</strong> until everything is online.
-            <ul>
-              <li>Programming and architecture</li>
-              <li>Databases</li>
-              <li>Secured hosting</li>
-            </ul>
-          </p>
-        </div>
-        <div class="col-xs-12 col-sm-5 d-flex mx-auto">
-          <img id="code" class="mx-auto" src="images/services/coding_screen.jpg" alt="Code">
-        </div>   
-      </div>  
-    </div>
   </div>
+
+  <div class="section "> 
+    <div id="services" class="container">
+        
+      <h3>Creating websites and web/mobile apps</h3>
+
+      <p>Are you looking for someone to create a website or a web/mobile app ? Or work on an existing project ?
+      <br>
+      I can work on your project from A à Z, from the design and development until it's fully online.</p>
+
+      <br>
+    
+      <!-- Responsive design -->
+      <div>
+        <div class="d-flex align-items-center">
+          <img src="images/services/design.png" class="logo-services" alt="Design Icon">
+          <h4 class="text-center mt-2">Design</h4>
+        </div>
+        <div class="row">
+          <div class="col-xs-8 col-sm-7">
+            <p>Creating mockups of the user journey (UX/UI), with a <strong>"responsive"</strong> design adjusting to any type of screens, including mobile.<br>
+            <br>
+            Adding custom features : landing pages, online stores, authentication, search, geolocalisation, payment, mailings, etc.
+            </p>
+          </div>
+          <div class="col-xs-4 col-sm-5 d-flex mx-auto">
+            <img src="images/services/responsive.png" alt="Responsive Design" class="max-w-100">
+          </div>   
+        </div>  
+      </div>
+      <br>
+      
+      <!-- Fullstack development -->
+      <div>
+        <div class="d-flex align-items-center">
+          <img src="images/services/development.png" class="logo-services" alt="Code Icon">
+          <h4 class="text-center mt-2">Developement</h4> 
+        </div> 
+        <div class="row">
+          <div class="col-xs-12 col-sm-7">
+            <p>Fullstack development : deploying the <strong>code</strong> until everyting is online.
+              <ul>
+                <li>Programming and architecture</li>
+                <li>Databases</li>
+                <li>Secure hosting</li>
+              </ul>
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-5 d-flex mx-auto">
+            <img class="max-w-100"src="images/services/coding_screen.jpg" alt="Code">
+          </div>   
+        </div>  
+      </div>
+    </div>
         
     </div>
 
   </div>
 
-  <div id="technologies" class="container">
-    <h3>TECHNOLOGIES</h3>
-
-    <h6>FRONT-END TOOLS</h6>
-
-    <div class="cards-techno">
+  <div class="section bg-green">
+    <div id="portfolio" class="container">
       
-      <div class="card-techno d-flex">
-        <img src="images/technologies/html5.png" alt="HTML logo" class="techno-logos">
-        <div class="techno-names">HTML</div>
-      </div>
-
-      <div class="card-techno d-flex">
-        <img src="images/technologies/css3.png" alt="CSS logo" class="techno-logos">
-        <div class="techno-names">CSS</div>
-      </div>
-
-      <div class="card-techno d-flex">
-        <img src="images/technologies/javascript.png" alt="JS logo" class="techno-logos">
-        <div class="techno-names">Javascript</div>
-      </div>
-
-      <div class="card-techno d-flex">
-        <img src="images/technologies/bootstrap.png" alt="Bootstrap logo" class="techno-logos">
-        <div class="techno-names">Bootstrap</div>
-      </div>
-
-      <div class="card-techno d-flex">
-        <img src="images/technologies/figma.png" alt="Responsive logo" class="techno-logos">
-        <div class="techno-names">Figma</div>
-      </div>
-      <div class="card-techno d-flex">
-        <img src="images/technologies/photoshop.png" alt="Photoshop logo" class="techno-logos">
-        <div class="techno-names">Photoshop</div>
-      </div>
-    </div>
-    
-    <br>
+      <h3>Portfolio</h3>
       
-    <h6>BACK-END TOOLS</h6>
+      <div id="portfolio-grid">
 
-    <div class="cards-techno">
+        <div>
+            <!-- Button trigger modal -->
+          <div type="button" data-toggle="modal" data-target="#batchcookingModal">
+            <div class="project-card">
+              <img src="images/projects/batchcooking_home.webp" alt="BatchCooking Paris" class="project-img">
+              <div class="project-text">   
+                <div class="project-title">BatchCooking Paris</div>
+                <div class="project-description">Cookers at home</div>
+                <div class="project-technos">Web app made with Ruby on Rails.</div>
+              </div>
+            </div>
+          </div>
 
-      <div class="card-techno d-flex">
-        <img src="images/technologies/python_logo.png" alt="Python logo" class="techno-logos">
-        <div class="techno-names">Python</div>
-      </div>
+          <!-- Modal -->
+          <div class="modal fade" id="batchcookingModal" tabindex="-1" role="dialog" aria-labelledby="batchcookingModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="d-flex justify-content-center w-100">
+                    <h5 class="modal-title" id="batchcookingModalLabel">Batchcooking Paris</h5>
+                    <a type="button" class="btn btn-ghost " href="https://www.batchcookingparis.fr" target="_blank">See the website</a>
+                  </div>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  
+                  <img src="images/projects/batchcooking.webp" alt="BatchCooking Paris">
+                </div>
+              </div>
+            </div>
+          </div>
 
-      <div class="card-techno d-flex">
-        <img src="images/technologies/django.png" alt="Django logo" class="techno-logos">
-        <div class="techno-names">Django</div>
-      </div>
-
-      <div class="card-techno d-flex">
-        <img src="images/technologies/flask.png" alt="Flask logo" class="techno-logos">
-        <div class="techno-names">Flask</div>
-      </div>
-
-      <div class="card-techno d-flex">
-        <img src="images/technologies/API_logo.png" alt="APIs logo" class="techno-logos">
-        <div class="techno-names">APIs</div>
-      </div>
-
-      <div class="card-techno d-flex">
-        <img src="images/technologies/ruby.png" alt="Ruby logo" class="techno-logos">
-        <div class="techno-names">Ruby</div>
-      </div>
-
-      <div class="card-techno d-flex">
-        <img src="images/technologies/rails.png" alt="Rails logo" class="techno-logos">
-        <div class="techno-names">Rails</div>
-      </div>
-      
-      <div class="card-techno pt-0 pb-0 d-flex">
-        <img src="images/technologies/postgreSQL.png" alt="PostgreSQL logo" class="techno-logos mt-3">
-        <div class="techno-names pt-1 pb-0">Postgre <br>SQL</div>
-      </div>
-
-      <div class="card-techno d-flex">
-        <img src="images/technologies/stripe.jpg" alt="Stripe logo" class="techno-logos">
-        <div class="techno-names">Stripe</div>
-      </div>
-
-      <div class="card-techno d-flex">
-        <img src="images/technologies/git.png" alt="Git logo" class="techno-logos">
-        <div class="techno-names">Git</div>
-      </div>
-
-      <div class="card-techno d-flex">
-        <img src="images/technologies/github.png" alt="Github logo" class="techno-logos">
-        <div class="techno-names">Github</div>
-      </div>
-
-      <div class="card-techno d-flex">
-        <img src="images/technologies/heroku.png" alt="Heroku logo" class="techno-logos">
-        <div class="techno-names">Heroku</div>
-      </div>
-
-      <div class="card-techno d-flex">
-        <img src="images/technologies/mvc.png" alt="MVC logo" class="techno-logos">
-        <div class="techno-names">MVC</div>
-      </div>
-    </div>
-
-  </div>
-  
-  <div id="parcours">
-    <div class="container">
-      <h3>BACKGROUND</h3>
-
-      <div><h6>Education</h6></div>
-      <hr>
-
-      <!-- Harvard CS50 web programming   -->
-      <div class="row">
-        <div class="col-2 d-flex mx-auto bg-logo-container">
-          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/29/Harvard_shield_wreath.svg/300px-Harvard_shield_wreath.svg.png" class="logo" >
         </div>
-        <div class="col-10 background-container">
-          <h5><a href="https://www.edx.org/professional-certificate/harvardx-computer-science-for-web-programming">Harvard Computer Science</a></h5>
-          <div class="small">2020</div>
-          <p>Specialization in Web Programming with Python and Javascript: databases, algorithms, UX/UI design, security, production. <br>
-          <i class="fas fa-user-graduate pt-2 pr-2"></i><span class="underline"><a href="https://online-learning.harvard.edu/course/cs50s-web-programming-python-and-javascript?delta=0" target="blank">CS50</span> Certificate </a> obtained via EdX. 
-          <span class="details"><a href="https://courses.edx.org/certificates/90784b87900c4ca0b0303f2917f7beed" target="blank">(Click here.)</a></span></p>
-        </div>
-      </div>
+        
+        <div>
+          <div type="button" data-toggle="modal" data-target="#monbrisonModal">
+            <div class="project-card">
+              <img src="images/projects/monbrison_home.webp" alt="Château Monbrison" class="project-img">
+              <div class="project-text">   
+                <div class="project-title">Château Monbrison</div>
+                <div class="project-description">Wine online store</div>
+                <div class="project-technos">E-shop made with WooCommerce.</div>
+              </div>
+            </div>
+          </div>
 
-      <br>
-      <!-- Le Wagon   -->
-      <div class="row">
-        <div class="col-2 d-flex mx-auto bg-logo-container">
-          <img src="images/parcours/wagon_icon.png" class="logo" >
-        </div>
-        <div class="col-10 background-container">
-          <h5><a href="https://www.lewagon.com/fr"> Le Wagon </a></h5>
-          <div class="small">2019 (batch 325)</div>
-          <p> Bootcamp (intensive training) to learn to code : built web applications from the back-end to the user interface. <br> 
-          <i class="fas fa-user-graduate pt-2 pr-2"></i><a href="https://www.lemondeinformatique.fr/actualites/lire-l-ecole-de-code-le-wagon-decroche-un-titre-rncp-de-niveau-2-74172.html" class="underline" target="blank">RNCP</a> certificate in "Designing and Developing Web Applications" (French "Bac+3/4" level). <span class="details" data-toggle="modal" data-target="#wagon_certificate">(Click here.)</span></p>
-        </div>
-      </div>
-    
-        <!-- Modal for the Wagon Certificate Link :  -->
-        <div class="modal fade" id="wagon_certificate" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-body">
-                <img src="/images/parcours/wagon_certificate.png" alt="Wagon Certificate">
+          <!-- Modal -->
+          <div class="modal fade" id="monbrisonModal" tabindex="-1" role="dialog" aria-labelledby="monbrisonModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="d-flex align-items-center w-100">
+                    <h5 class="modal-title" id="monbrisonModalLabel">Château Monbrison</h5>
+                    <a type="button" class="btn btn-ghost " href="https://www.chateaumonbrison.com" target="_blank">See the website</a>
+                  </div>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/projects/monbrison.webp" alt="BatchCooking Paris">
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <br>
-      <!--ESCP Europe   -->
-      <div class="row">
-        <div class="col-2 d-flex mx-auto bg-logo-container">
-          <img src="images/parcours/escp_logo.jpeg" class="logo" >
-        </div>
-        <div class="col-10 background-container">
-          <h5><a href="https://www.escpeurope.eu/fr">ESCP Europe Business School</a></h5>
-          <div class="small">2005-2009</div>
-          <p>Master's in Management (Paris).</p>
-        </div>
-      </div>
-      <br>
-    <!-- Titre "Expérience professionnelle"   -->
-    <div><h6>Work Experience</h6></div>
-    <hr>
 
-    <!-- Developpeur web  -->
-    <div class="row">
-      <div class="col-2 d-flex mx-auto bg-logo-container">
-        <img src="images/parcours/banner-small.png" class="logo" >
-      </div>
-      <div class="col-10 background-container">
-        <h5>Web Developer</h5>
-        <div class="small">Since 2020</div>
-        <p>Creating websites and web/mobile applications</p>
-      </div>
-    </div>
-    <br>
+        <div>
+          <div type="button" data-toggle="modal" data-target="#pithcounModal">
+            <div class="project-card">
+              <img src="images/projects/pitchoun_home.webp" alt="Pitchoun" class="project-img">
+              <div class="project-text">   
+                <div class="project-title">Pitchoun'</div>
+                <div class="project-description">Network of kindergardens</div>
+                <div class="project-technos">Showcase website made with Webflow</div>
+              </div>
+            </div>
+          </div>
 
-    <!-- Bordeaux Métropole  -->
-    <div class="row">
-      <div class="col-2 d-flex mx-auto bg-logo-container">
-        <img src="images/parcours/bm_logo.png" class="logo" >
-      </div>
-      <div class="col-10 background-container">
-        <h5><a href="https://www.bordeaux-metropole.fr/">Bordeaux Métropole</a></h5>
-        <div class="small">2016-2019</div>
-        <p>Project Director for Digital Transformation.</p>
-      </div>
-    </div>
-    <br>
-    <!-- OCDE -->
-    <div class="row">
-      <div class="col-2 d-flex mx-auto bg-logo-container">
-        <img src="images/parcours/oecd_logo.png" class="logo">
-      </div>
-      <div class="col-10 background-container">
-        <h5><a href="https://www.oecd.org/about" target="blank">OECD</a></h5>
-        <div class="small">2009-2016</div>
-        <p>Organisation for Economic Cooperation and Development :</p>
-        <ul id="job-list">
-          <li>Consultant on digital projects <em> (2014-2016)</em>.</li>
-          <li>Analyst<em> (2009-2013) </em>.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div id="portfolio" class="container bg-brown">
-    
-    <h3>PORTFOLIO</h3>
-    
-    <p class="project-title"><strong><a href="https://placesaintprojet-bordeaux.com/" target="_blank">Place St Projet, Bordeaux</strong> - Showcase website about Bordeaux's touristic heritage.</p>
-      <div class="row align-items-center">
-        <img src="images/portfolio/StProjet1.png" class="col-3 img-portfolio" data-aos="zoom-in">
-        <img src="images/portfolio/StProjet2.png" class="col-3 img-portfolio" data-aos="zoom-in">
-        <img src="images/portfolio/StProjet3.png" class="col-6 img-portfolio" data-aos="zoom-in">
-      </div>
-      <div class="project-technos"><i class="fas fa-angle-double-right pr-1"></i>   Built with HTML, CSS and Javascript.</div>
-      </a>
-      <hr>
-
-    <p class="project-title"><strong><a href="http://www.carnet-de-citations.xyz/" target="_blank">My digital notebook</strong> - A digital notebook to store inspiring quotes.</p>
-    <div class="row">
-      <img src="images/portfolio/Citations1.png" class="col-6 img-portfolio" data-aos="zoom-in">
-      <img src="images/portfolio/Citations2.jpg" class="col-3 img-portfolio" data-aos="zoom-in">
-      <img src="images/portfolio/Citations3.png" class="col-3 img-portfolio" data-aos="zoom-in">
-    </div>
-    <div class="project-technos"><i class="fas fa-angle-double-right pr-1"></i>Built with Python and  the Flask framework. </div>
-    </a>
-    <hr>
-
-    <p class="project-title"><strong>FlashWine</strong> - A web app to learn all about wine : virtual wine cellar, courses and quizzes, community for friends. </p>
-    <div class="row">
-      <img src="images/portfolio/FlashWine1.png" class="col-3 img-portfolio" data-aos="zoom-in">
-      <img src="images/portfolio/FlashWine2.png" class="col-3 img-portfolio" data-aos="zoom-in">
-      <img src="images/portfolio/FlashWine3.png" class="col-3 img-portfolio" data-aos="zoom-in">
-      <img src="images/portfolio/FlashWine4.png" class="col-3 img-portfolio" data-aos="zoom-in">
-    </div>
-    <div class="project-technos"><i class="fas fa-angle-double-right pr-1"></i>Built with Ruby on Rails. </div>
-
-    <hr>
-    <p class="project-title"><strong>SuperVoisin</strong> - Services-sharing platform: publishing offers, geolocalisation, bookings, mailbox.</p>
-    <div class="row">
-      <img src="images/portfolio/SuperVoisin1.png" class="col-3 img-portfolio" data-aos="zoom-in">
-      <img src="images/portfolio/SuperVoisin2.png" class="col-3 img-portfolio" data-aos="zoom-in">
-      <img src="images/portfolio/SuperVoisin3.png" class="col-3 img-portfolio" data-aos="zoom-in">
-      <img src="images/portfolio/SuperVoisin4.png" class="col-3 img-portfolio" data-aos="zoom-in">
-    </div>
-    <div class="project-technos"><i class="fas fa-angle-double-right pr-1"></i>Built with Ruby on Rails.</div>
-  </div>
-
-  <div id="contact" class="container bg-blue">
-    <h3>CONTACT</h3>
-    <div class="row ml-2 mr-2">
-      <div class="bg-img col-12 col-sm-6" id="contact-img" style="background-image: url('images/contact/contact.jpg');">
-        <div class="bg-img-title-container" id="contact-img-container">
-          <div class="bg-img-title-text">A PROJECT ? <br>LET'S TALK ABOUT IT !</div>
+          <!-- Modal -->
+          <div class="modal fade" id="pithcounModal" tabindex="-1" role="dialog" aria-labelledby="pithcounModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="d-flex align-items-center w-100">
+                    <h5 class="modal-title" id="pithcounModalLabel">Pitchoun'</h5>
+                    <a type="button" class="btn btn-ghost " href="https://www.pitchoun.org" target="_blank">See the website</a>
+                  </div>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/projects/pitchoun.webp" alt="Pitchoun'">
+                </div>               
+              </div>
+            </div>
+          </div>
         </div>
         
+        <div>
+          <div type="button" data-toggle="modal" data-target="#studioJeanneModal">
+            <div class="project-card">
+              <img src="images/projects/studio_jeanne_home.webp" alt="Studio Jeanne" class="project-img">
+              <div class="project-text">   
+                <div class="project-title">Studio Jeanne</div>
+                <div class="project-description">Home decoration</div>
+                <div class="project-technos">Showcase website made with Webflow</div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="studioJeanneModal" tabindex="-1" role="dialog" aria-labelledby="studioJeanneModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="d-flex align-items-center w-100">
+                    <h5 class="modal-title" id="studioJeanneModalLabel">Studio Jeanne</h5>
+                    <a type="button" class="btn btn-ghost " href="https://www.studio-jeanne.com" target="_blank">See the website</a>
+                  </div>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/projects/studiojeanne.webp" alt="Studio Jeanne">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div type="button" data-toggle="modal" data-target="#nicolasKessler">
+            <div class="project-card">
+              <img src="images/projects/nicolas_kessler_home.webp" alt="Nicolas Kessler" class="project-img">
+              <div class="project-text">   
+                <div class="project-title">Nicolas Kessler</div>
+                <div class="project-description">Journalism and events</div>
+                <div class="project-technos">Showcase website made with Webflow</div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="nicolasKessler" tabindex="-1" role="dialog" aria-labelledby="nicolasKesslerLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="d-flex align-items-center w-100">
+                    <h5 class="modal-title" id="nicolasKesslerLabel">Nicolas Kessler</h5>
+                    <a type="button" class="btn btn-ghost " href="https://www.nicolas-kessler.fr" target="_blank">Voir le site</a>
+                  </div>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  
+                  <img src="images/projects/nicolaskessler.webp" alt="Nicolas Kessler">
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div type="button" data-toggle="modal" data-target="#selnetGiraudModal">
+            <div class="project-card">
+              <img src="images/projects/selnet_home.webp" alt="Selnet Giraud" class="project-img">
+              <div class="project-text">   
+                <div class="project-title">Selnet Giraud Associés</div>
+                <div class="project-description">Lawyers</div>
+                <div class="project-technos">Showcase website made with Webflow</div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="selnetGiraudModal" tabindex="-1" role="dialog" aria-labelledby="selnetGiraudModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="d-flex align-items-center w-100">
+                    <h5 class="modal-title" id="selnetGiraudModalLabel">Selnet Giraud Associés</h5>
+                    <a type="button" class="btn btn-ghost " href="https://www.selnetgiraud.law" target="_blank">See the website</a>
+                  </div>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  
+                  <img src="images/projects/selnet.webp" alt="Selnet Giraud">
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div type="button" data-toggle="modal" data-target="#citationsModal">
+            <div class="project-card">
+              <img src="images/projects/citations_home.webp" alt="Carnet de citations" class="project-img">
+              <div class="project-text">   
+                <div class="project-title">Mon carnet de citations</div>
+                <div class="project-description">Personal notebook</div>
+                <div class="project-technos">Web app made with Python/Flask.</div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="citationsModal" tabindex="-1" role="dialog" aria-labelledby="citationsModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="d-flex align-items-center w-100">
+                    <h5 class="modal-title" id="citationsModalLabel">Mon cartnet de citations</h5>
+                    <a type="button" class="btn btn-ghost " href="http://www.carnet-de-citations.xyz" target="_blank">See the website</a>
+                  </div>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  
+                  <img src="images/projects/citations_home.webp" alt="BatchCooking Paris">
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div type="button" data-toggle="modal" data-target="#saintProjetModal">
+            <div class="project-card">
+              <img src="images/projects/st_projet_home.webp" alt="Place St Projet" class="project-img">
+              <div class="project-text">   
+                <div class="project-title">Place St Projet</div>
+                <div class="project-description">Tourism in Bordeaux</div>
+                <div class="project-technos">Showcase website made with HTML/CSS.</div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="saintProjetModal" tabindex="-1" role="dialog" aria-labelledby="saintProjetModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div class="d-flex align-items-center w-100">
+                    <h5 class="modal-title" id="saintProjetModalLabel">Place St Projet</h5>
+                    <a type="button" class="btn btn-ghost " href="http://www.placesaintprojet-bordeaux.com/" target="_blank">See the website</a>
+                  </div>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="images/projects/st_projet_home.webp" alt="Place St Projet">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
 
-      <div class="col-12 col-sm-6" id="contact-infos">
-        <p class="pl-0 pr-0">Please don't hesitate to contact me. I will get back to you shortly with an estimate of price and delay for your project.</p>
-        <div class="row">
-          <div class="col-4 contact-row">
-            <i class="far fa-envelope contact-icon"></i>
-          </div>
-          <p class="col-8 pl-0 pr-0">
-            <a href="mailto:contact@noemie-pierart.com"> contact@noemie-pierart.fr</a>
-          </p>
-        </div>
-        <div class="row">
-          <div class="col-4 contact-row">
-            <i class="fas fa-phone contact-icon"></i>
-          </div>
-          <p class="col-8 pl-0"> +33.6.13.85.76.07</p>
-        </div>
-        <div class="row">
-          <div class="col-4 contact-row">
-            <i class="fas fa-map-marker-alt contact-icon"></i>
-          </div>
-          <p class="col-8 pl-0">
-            8 place Saint-Projet<br>33 000 Bordeaux
-          </p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div id="technologies" class="container">
+      <h3>Technologies</h3>
+
+      <h4>Front-end</h4>
+
+      <div class="cards-techno">
+        
+        <div class="card-techno d-flex">
+          <img src="images/technologies/html5.png" alt="HTML logo" class="techno-logo">
+          <div class="techno-names">HTML</div>
         </div>
 
-        <br>
-        <br>
-        <div class="d-flex justify-content-around mt-auto" id="contact-links">
-          <a href="https://www.linkedin.com/in/noemiepierart" target="blank"><img src="images/contact/linkedin.png"class="contact-link" alt="Linkedin logo"></a>
-          <a href="https://github.com/noemiepierart" target="blank"><img src="images/contact/github.png" alt="Github Logo" class="contact-link"></a>
-          <a href="https://www.malt.fr/profile/noemiepierart" target="blank"><img src="images/contact/malt.png" id="malt" alt="Malt logo" class="contact-link"></a>
+        <div class="card-techno d-flex">
+          <img src="images/technologies/css3.png" alt="CSS logo" class="techno-logo">
+          <div class="techno-names">CSS</div>
         </div>
+
+        <div class="card-techno d-flex">
+          <img src="images/technologies/javascript.png" alt="JS logo" class="techno-logo">
+          <div class="techno-names">Javascript</div>
+        </div>
+
+        <div class="card-techno d-flex">
+          <img src="images/technologies/bootstrap.png" alt="Bootstrap logo" class="techno-logo">
+          <div class="techno-names">Bootstrap</div>
+        </div>
+
+        <div class="card-techno d-flex">
+          <img src="images/technologies/figma.png" alt="Responsive logo" class="techno-logo">
+          <div class="techno-names">Figma</div>
+        </div>
+        <div class="card-techno d-flex">
+          <img src="images/technologies/stimulus.png" alt="Photoshop logo" class="techno-logo">
+          <div class="techno-names">Stimulus</div>
+        </div>
+
+        <div class="card-techno d-flex">
+          <img src="images/technologies/webflow.png" alt="Photoshop logo" class="techno-logo">
+          <div class="techno-names">Webflow</div>
+        </div>
+      </div>
+      
+      <br>
+        
+      <h4>Back-end</h4>
+
+      <div class="cards-techno">
+
+        <div class="card-techno d-flex">
+          <img src="images/technologies/ruby.png" alt="Ruby logo" class="techno-logo">
+          <div class="techno-names">Ruby</div>
+        </div>
+
+        <div class="card-techno d-flex">
+          <img src="images/technologies/rails.png" alt="Rails logo" class="techno-logo">
+          <div class="techno-names">Rails</div>
+        </div>
+        
+        <div class="card-techno pt-0 pb-0 d-flex">
+          <img src="images/technologies/postgreSQL.png" alt="PostgreSQL logo" class="techno-logo mt-3">
+          <div class="techno-names pt-1 pb-0">Postgre <br>SQL</div>
+        </div>
+
+        <div class="card-techno d-flex">
+          <img src="images/technologies/stripe.jpg" alt="Stripe logo" class="techno-logo">
+          <div class="techno-names">Stripe</div>
+        </div>
+
+        <div class="card-techno d-flex">
+          <img src="images/technologies/git.png" alt="Git logo" class="techno-logo">
+          <div class="techno-names">Git</div>
+        </div>
+
+        <div class="card-techno d-flex">
+          <img src="images/technologies/github.png" alt="Github logo" class="techno-logo">
+          <div class="techno-names">Github</div>
+        </div>
+
+        <div class="card-techno d-flex">
+          <img src="images/technologies/heroku.png" alt="Heroku logo" class="techno-logo">
+          <div class="techno-names">Heroku</div>
+        </div>
+
+        <div class="card-techno d-flex">
+          <img src="images/technologies/mvc.png" alt="MVC logo" class="techno-logo">
+          <div class="techno-names">MVC</div>
+        </div>
+
+        <div class="card-techno d-flex">
+          <img src="images/technologies/API_logo.png" alt="APIs logo" class="techno-logo">
+          <div class="techno-names">APIs</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+  <div class="section bg-gray-light" >
+    <div class="container" id="parcours">
+      <h3 class="text-center" >About me</h3>
+      <div id="about-intro" class="p-4">
+        <img src="/images/parcours/quote_open.png" class="quote-open" id="open-quote">
+        <p>After a Business School (ESCP Europe) and 10 years of experience in <strong> digital projects management</strong>, in France and abroad, I decided to learn how to <strong>code</strong> with <strong><a href="https://www.lewagon.com/fr" target="_blank">Le Wagon</a></strong>, with a focus on Ruby on Rails and Javascript.<br><br>I became passionate about creating web/mobile applications and I'm now a <strong>freelance Fullstack Developer</strong>. I also teach code in the fullstack bootcamps of Le Wagon.</p> 
+        <img src="/images/parcours/quote_close.png" class="quote-close" id="close-quote">
+      </div>
+    </div>
+  </div>
+  
+  <div class="section">
+    <div id="parcours" class="container">
+    
+        <h4>Studies</h4>
+        <hr>
+
+        <!-- Le Wagon   -->
+        <div class="row">
+          <div class="col-2 d-flex mx-auto bg-logo-container">
+            <img src="images/parcours/wagon_icon.png" class="logo" >
+          </div>
+          <div class="col-10 background-container">
+            <h5><a href="https://www.lewagon.com/fr"> Le Wagon </a><span class="date">(2019, batch 325)</span></h4>
+            <p> Coding Bootcamp (intensive training) : réalisation d'applications web depuis leur conception jusqu'à leur mise en ligne. <br>
+             RNCP Certficate "Conception and development of web applications", with a French "Bac+3/4" level.<span><a href="https://www.lemondeinformatique.fr/actualites/lire-l-ecole-de-code-le-wagon-decroche-un-titre-rncp-de-niveau-2-74172.html"> (More details)</a></span></p>
+            <span class="details small hover-bold" data-toggle="modal" data-target="#wagon_certificate"><i class="bi bi-arrow-right-circle pr-2"></i>See the certificate</span>
+          </div>
+        </div>
+      
+          <!-- Modal for the Wagon Certificate Link :  -->
+          <div class="modal fade" id="wagon_certificate" tabindex="-1" role="dialog" aria-labelledby="exampleModal1Label" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <img src="/images/parcours/wagon_certificate.png" alt="Wagon Certificate">
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+        <!--ESCP Europe   -->
+        <div class="row">
+          <div class="col-2 d-flex mx-auto bg-logo-container">
+            <img src="images/parcours/escp_logo.jpeg" class="logo" >
+          </div>
+          <div class="col-10 background-container">
+            <h5><a href="https://www.escpeurope.eu/fr">ESCP Europe Business School</a>
+            <span class="date">(2005-2009)</span></h5>
+            <p>Master's in Management in Paris and Ahmedabad (India).</p>
+          </div>
+        </div>
+        <br>
+      <!-- Titre "Expérience professionnelle"   -->
+      <h4>Work Experience</h4>
+      <hr>
+
+      <!-- Developpeur web  -->
+      <div class="row">
+        <div class="col-2 d-flex mx-auto bg-logo-container">
+          <img src="images/parcours/webdev_logo.png" class="logo" >
+        </div>
+        <div class="col-10 background-container">
+          <h5>Web Developer </a><span class="date">(2019-2022)</span></h5>
+          <p>Creating websites and web/mobile apps. Teaching code at Le Wagon.</p>
         </div>
       </div>
       <br>
-    <div id="footer" class="text-center">
-      <hr>
-      <p>Noémie Piérart, SIREN 818 080 327</p>
-      <p>© Photo credits : <a href="https://unsplash.com/" target="blank"> Unsplash.com </a><a href="https://unsplash.com/@grovemade?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="blank">(Groovemade,</a><a href="https://unsplash.com/@clemhlrdt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="blank"> Clément H,</a><a href="https://unsplash.com/@bookblock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="blank"> Bookblock)</a></p>
+
+      <!-- Bordeaux Métropole  -->
+      <div class="row">
+        <div class="col-2 d-flex mx-auto bg-logo-container">
+          <img src="images/parcours/bm_logo.png" class="logo" >
+        </div>
+        <div class="col-10 background-container">
+          <h5><a href="https://www.bordeaux-metropole.fr/" target="blank">Bordeaux Métropole</a>
+          <span class="date">(2016-2019)</span></h5>
+          <p>Project Director on Digital Transformation.</p>
+        </div>
+      </div>
+      <br>
+      <!-- OCDE -->
+      <div class="row">
+        <div class="col-2 d-flex mx-auto bg-logo-container">
+          <img src="images/parcours/oecd_logo.png" class="logo">
+        </div>
+        <div class="col-10 background-container">
+          <h5><a href="https://www.oecd.org/fr/apropos/" target="blank">OECD</a>
+          <span class="date">(2009-2016)</span></h5>
+          <p>Organisation for Economic Cooperation and Development :</p>
+          <ul id="job-list">
+            <li>Consultant on digital projects<em> (2014-2016)</em>.</li>
+            <li>Analyst<em> (2009-2013) </em>.</li>
+          </ul>
+        </div>
+      </div>
+      <br>
+    <h4>Certifications</h4>
+    <hr>
+
+      <!-- Harvard CS50 web programming   -->
+      <div class="row">
+        <div class="col-2 d-flex mx-auto bg-logo-container">
+          <img src="images/parcours/harvard.png" class="logo" >
+        </div>
+        <div class="col-10 background-container">
+          <h5><a href="https://www.edx.org/professional-certificate/harvardx-computer-science-for-web-programming" target="blank">Harvard Computer Science : CS50</a>
+          <span class="date">(2020)</span></h5>
+          <p><span>Focus on web programming with Python and Javascript : databases, algorithms, UX/UI design, sécurity, dev ops. <a href="https://online-learning.harvard.edu/course/cs50s-web-programming-python-and-javascript?delta=0" target="blank"> (More details)</a></span></p>
+          <a href="https://courses.edx.org/certificates/90784b87900c4ca0b0303f2917f7beed" target="blank" class="small hover-bold"><i class="bi bi-arrow-right-circle pr-2"></i>See the certificate</a>
+        </div>
+      </div>
+
+      <br>
+
+      <!-- Google Digital Marketing -->      
+      <div class="row">
+        <div class="col-2 d-flex mx-auto bg-logo-container">
+          <img src="images/parcours/google_logo.png" id="google-logo" >
+        </div>
+        <div class="col-10 background-container">
+          <h5><a href="https://www.edx.org/professional-certificate/harvardx-computer-science-for-web-programming" target="blank">Learn Digital with Google: Fundamentals of Digital Marketing </a><span class="date">(2020)</span></h5>
+          <p>SEO, SEA, audience analysis, social networks</p>
+          <div><a href="images/parcours/NoemiePIERART_Google_Ateliers_Certificat.pdf" target="blank" class="small hover-bold"><i class="bi bi-arrow-right-circle pr-2"></i>See the certificate</a></div>
+        </div>
+      </div>
     </div>
-    
+  </div>
+
+  <div class="section bg-blue">
+    <div id="contact" class="container bg-blue">
+      <h3 class="white">CONTACT</h3>
+      <div class="row mx-0">
+        <div class="bg-img col-12 col-sm-6" id="contact-img" style="background-image: url('images/contact/contact.jpg');">
+          <div class="bg-img-title-container" id="contact-img-container">
+            <div class="bg-img-title-text">A PROJECT ? <br>LET'S TALK !</div>
+          </div>
+          
+        </div>
+
+        <div class="col-12 col-sm-6" id="contact-infos">
+          <p class="pl-0 pr-0">Please do not hesitate to contact me. I will get back to you shortly with a clear proposal of costs and delays.</p>
+          <div class="row">
+            <div class="col-4 contact-row">
+              <i class="far fa-envelope contact-icon"></i>
+            </div>
+            <p class="col-8 pl-0 pr-0">
+              <a href="mailto:contact@noemie-pierart.fr"> contact@noemie-pierart.fr</a>
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-4 contact-row">
+              <i class="fas fa-phone contact-icon"></i>
+            </div>
+            <a class="col-8 pl-0" href="tel:+33613857607">+33.6.13.85.76.07</a>
+          </div>
+          <div class="row">
+            <div class="col-4 contact-row">
+              <i class="fas fa-map-marker-alt contact-icon"></i>
+            </div>
+            <p class="col-8 pl-0">
+              8 place Saint-Projet<br>33 000 Bordeaux, France
+            </p>
+          </div>
+          <br>
+          <div class="d-flex justify-content-center pb-2">
+            <a href="https://www.linkedin.com/in/noemiepierart" target="_blank"><img src="images/contact/linkedin.png" alt="linkedin" class="social-icon"></a>
+            <a href="https://github.com/noemiepierart" target="_blank"><img src="images/contact/github.png" alt="github" class="social-icon"></a>
+          </div>
+        </div>
+      </div>
+      <div id="malt-wrapper">
+        <a href="https://www.malt.fr/profile/noemiepierart" target="blank">
+          <div id="malt-title">
+            <img src="images/contact/malt_full.png" id="malt" alt="Malt logo" width="100" class="mr-2">
+            <div>Follow me on Malt, the freelancers' platform :</div>
+          </div>
+          <div class="text-center"><span class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            </span>(10 reviews) - <img src="images/contact/supermalter.png" height="30"> SuperMalter
+          </div>
+        </a>
+      </div>
+          <br>
+          <div id="footer" class="text-center">
+            <hr>
+            <div>© Noémie Piérart, SIREN 818 080 327</div>
+            <div> Photo credits : <a href="https://unsplash.com/" target="blank"> Unsplash.com </a><a href="https://unsplash.com/@grovemade?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="blank">(Groovemade,</a><a href="https://unsplash.com/@clemhlrdt?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="blank"> Clément H,</a><a href="https://unsplash.com/@bookblock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="blank"> Bookblock)</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -548,7 +814,7 @@
     <script>
       // Toggle the vertical navbar when the user clicks on the bars
       const bars = document.querySelector("#bars");
-      const navbar_vertical = document.querySelector("#navbar-vertical");
+      const navbar_vertical = document.querySelector("#vertical-navbar");
       bars.addEventListener("click", (event) => {
         if (navbar_vertical.style.display === 'none') {
           navbar_vertical.style.display = 'block';
@@ -557,7 +823,7 @@
         }
       })
       // Hide the vertical navbar when the user clicks on a link
-      const section_links = document.querySelectorAll(".section-link")
+      const section_links = document.querySelectorAll(".vertical-navbar-link")
       section_links.forEach((section_link) => {
         section_link.addEventListener("click", (event) => {
           console.log("Pouet");
@@ -565,12 +831,6 @@
         })
       })
     </script>
-
-    <!-- AOS Animations -->
-    <script>
-      AOS.init();
-    </script>
-
    
   </body>
 </html>

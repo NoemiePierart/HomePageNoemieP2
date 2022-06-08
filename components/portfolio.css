@@ -1,39 +1,95 @@
 /* PORTFOLIO SECTION */
 
-.project-title {
-  margin: 10px;
+#portfolio-grid {
+  display: grid;
+  grid-gap: 24px;
+  grid-template-columns: 1fr;
 }
 
-.details, .details a {
-  text-decoration: italic;
-  color: gray;
-  font-size: 1rem;
+@media (min-width:576px) {
+  #portfolio-grid  {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 992px) {
+  #portfolio-grid  {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.project-card {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+ 
+.project-card:hover {
+  cursor: pointer;
+  margin: 0 -6px;
+}
+
+.project-card:hover .project-title {
+  font-weight: 700 !important;
+}
+
+.project-text{
+  background-color: white;
+  padding: 12px 8px;
+  text-align: center;
+  min-height: 150px;
+}
+
+.project-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9em;
+}
+
+.project-description {
+  font-weight: 500;
+  font-size: 0.9em
 }
 
 .project-technos {
-  margin: 10px;
-  margin-right: 10px;
-  opacity: 0.8;
+  margin-top: 16px;
+  font-size: 0.8em;
 }
 
-.details:hover {
-  border-bottom: 1px solid gray;
-  cursor: pointer;
-}
-
-.small {
-  font-size: 1.2rem;
-}
-
-/*Portfolio images */
-.img-portfolio {
-  width: 24%;
-  height: 30%;
+.project-img {
+  max-width: 100%;
   transition:all 0.3s ease;
-  border-radius: 7%;
+  min-height: 140px
 }
 
-.img-portfolio:hover {
-  padding: 7px;
-  cursor: pointer;
+.modal-body img {
+  width: 100%;
+}
+
+.modal-title {
+  margin-right: 12px
+}
+
+.modal-dialog {
+  margin: 80px auto 0 auto;
+  width: 90vw;
+  max-width: 700px;
+}
+
+.modal-body {
+  background-color: #E7EEEE;
+}
+
+.modal-footer {
+  justify-content: center;
+}
+
+.close {
+  margin-top: -15px;
+  font-size: 1.7em;
+}
+
+.btn-ghost {
+  padding: 8px 12px;
+  line-height: 0.8em !important;
+  border: 1px solid #ccb8b8;
+  max-height: 45px;
 }
